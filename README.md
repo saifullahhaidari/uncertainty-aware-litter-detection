@@ -1,103 +1,73 @@
 # Uncertainty-Aware Cross-Domain Evaluation of Lightweight Outdoor Litter Detectors
 
-## Overview
+## 1. Project Overview
 
-This research project investigates how lightweight object detection models perform when tested in outdoor environments that differ from their training data. It also explores whether uncertainty estimation can help identify unreliable litter detection predictions.
+This research investigates the performance and reliability of lightweight object detection models for outdoor litter detection across different datasets and environments.
 
-The long-term motivation is to support more reliable computer vision systems for outdoor litter monitoring and, potentially, robotic waste collection.
+The project focuses on cross-domain generalization and explores whether uncertainty estimation can help identify unreliable model predictions.
 
-## Research Objectives
+## 2. Research Objectives
 
-- Evaluate the cross-domain generalization of lightweight outdoor litter detectors.
-- Investigate how differences in environments, image conditions, and dataset characteristics affect detection performance.
-- Explore uncertainty estimation methods for identifying potentially unreliable predictions.
-- Evaluate detection performance alongside computational efficiency.
-- Document experimental procedures, limitations, and results in a reproducible manner.
+- Evaluate lightweight object detection models for outdoor litter detection.
+- Investigate performance changes when a model is evaluated on a different dataset from the one used for training.
+- Examine whether uncertainty estimation can help identify potentially incorrect or unreliable predictions.
+- Consider computational efficiency, including inference speed and resource requirements.
 
-## Research Questions
+## 3. Research Questions
 
-1. How well does a lightweight litter detector generalize from one dataset to a different dataset without retraining?
-2. How do environmental differences and annotation quality affect cross-domain detection performance?
-3. Can uncertainty estimation help distinguish potentially incorrect predictions from reliable ones?
-4. What trade-offs exist between detection performance, inference speed, and computational cost?
+1. How well does a lightweight litter detector generalize across different datasets?
+2. How do environmental and dataset differences affect detection performance?
+3. Can uncertainty estimation help distinguish reliable predictions from potentially incorrect ones?
+4. What trade-offs exist between detection performance, reliability, and computational cost?
 
-## Planned Methodology
+## 4. Planned Methodology
 
-The proposed workflow is:
+The planned workflow includes:
 
-1. **Dataset assessment:** Examine candidate datasets for annotation quality, class definitions, environmental diversity, licensing, and possible data overlap.
-2. **Dataset compatibility:** Determine whether the selected datasets support a consistent litter detection task.
-3. **Baseline implementation:** Establish a lightweight object detection baseline. YOLOv8n is a candidate model and has not yet been finalized.
-4. **Within-domain evaluation:** Evaluate the baseline using an appropriate training, validation, and test protocol.
-5. **Cross-domain evaluation:** Train on one dataset and test on another without retraining, where dataset compatibility permits. Reverse-direction evaluation will be considered.
-6. **Uncertainty analysis:** Investigate suitable uncertainty estimation methods and evaluate their ability to identify unreliable predictions.
-7. **Efficiency evaluation:** Measure inference time and relevant computational requirements.
-8. **Analysis and reporting:** Compare results, investigate failure cases, and document limitations.
+1. Review candidate datasets and their licenses.
+2. Audit annotation quality, class definitions, image diversity, and potential data overlap.
+3. Select a suitable lightweight detection baseline.
+4. Prepare and document reproducible dataset splits.
+5. Train and evaluate the baseline under controlled conditions.
+6. Conduct cross-domain evaluation without retraining on the target test domain.
+7. Investigate suitable uncertainty estimation methods.
+8. Report detection metrics, reliability results, computational cost, and limitations.
 
-## Candidate Datasets
+TACO and PlastOPol are candidate datasets. Their suitability and compatibility must be assessed before final selection. YOLOv8n is a candidate baseline, not yet a confirmed experimental choice.
 
-TACO and PlastOPol are candidate datasets for investigation. They have not yet been selected as the final experimental datasets.
+## 5. Evaluation Plan
 
-Selection will depend on annotation compatibility, data quality, environmental diversity, licensing, and suitability for the research questions.
-
-No dataset quality or compatibility claims will be made before the required assessment.
-
-## Planned Evaluation
-
-Subject to the final experimental design, evaluation may include:
+Potential evaluation measures include:
 
 - Precision and Recall
-- F1-score
 - Average Precision (AP) and mean Average Precision (mAP)
-- False positives and false negatives
-- Uncertainty-based error identification
-- Inference latency and computational requirements
+- False Positives (FP) and False Negatives (FN)
+- Suitable measures for evaluating uncertainty-based error detection
+- Inference latency and Frames Per Second (FPS)
 
-The final metrics and protocols will be documented before the main experiments.
+The final metrics will depend on the validated experimental design and available annotations.
 
-## Current Status
+## 6. Current Status
 
-**Stage: Research setup and implementation preparation**
+- [x] Created the GitHub repository.
+- [x] Recorded the initial project description.
+- [x] Checked the main computer's hardware specifications.
+- [ ] Document and verify the software environment.
+- [ ] Audit candidate datasets and their licenses.
+- [ ] Finalize the dataset selection and experimental protocol.
+- [ ] Implement the baseline detector.
+- [ ] Conduct cross-domain experiments.
+- [ ] Evaluate uncertainty estimation methods.
+- [ ] Analyze results and document limitations.
 
-- [x] Research objective and initial questions defined
-- [x] Initial theoretical preparation completed
-- [x] Main computer hardware inspected
-- [x] GitHub repository created
-- [ ] Candidate dataset assessment
-- [ ] Dataset compatibility and annotation audit
-- [ ] Software environment setup and verification
-- [ ] Baseline model implementation
-- [ ] Initial training and within-domain evaluation
-- [ ] Cross-domain experiments
-- [ ] Uncertainty estimation experiments
-- [ ] Final analysis and research paper
+No model training results or experimental findings are claimed at this stage.
 
-The checklist reflects the current project status and will be updated as work is completed.
+## 7. Reproducibility and Research Integrity
 
-## Reproducibility and Research Integrity
+Experimental configurations, dataset versions, code changes, evaluation procedures, and limitations will be documented as the project progresses.
 
-Experiments will be documented with relevant dataset versions, data splits, model configurations, random seeds where applicable, software versions, hardware details, evaluation metrics, and observed limitations.
+Datasets, model weights, and other third-party resources will be used in accordance with their licenses. Large datasets and files that should not be redistributed will not be committed to this repository.
 
-Datasets, model weights, and other large or licensed files will only be shared when permitted. Sensitive credentials and private information will not be committed to the repository.
+## 8. Research Goal
 
-No experimental results or performance claims are reported at this stage because model training and evaluation have not yet been completed.
-
-## Repository Structure
-
-The repository will gradually include:
-
-- `docs/` — Research plans, decisions, and project logs
-- `data/` — Dataset documentation and audit reports, subject to licensing
-- `src/` — Source code
-- `configs/` — Experiment configurations
-- `experiments/` — Experiment records
-- `reports/` — Evaluation reports and figures
-- `tests/` — Code and data validation tests
-
-Directories will be added when they become useful; the structure is a plan, not a claim that these components already exist.
-
-## Research Status
-
-This repository documents an ongoing research project. Methods, datasets, and experimental procedures may change as evidence is collected and methodological decisions are justified.
-
-A publication in a high-quality journal is an aspiration, not a guaranteed outcome.
+The long-term goal is to investigate whether lightweight outdoor litter detection can become more reliable when evaluated across different environments, while accounting for uncertainty and computational constraints.
