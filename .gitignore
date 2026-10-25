@@ -218,3 +218,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Outdoor litter research: downloaded dataset images
+/data/batch_*/
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.png
+data/**/*.webp
+
+# Incomplete downloads
+data/**/*.part
+
+# Local experiment outputs and model weights
+runs/
+weights/
+*.pt
