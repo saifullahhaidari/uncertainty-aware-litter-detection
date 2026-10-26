@@ -1,0 +1,368 @@
+{
+  "source": "data/annotations.json",
+  "total_images": 1500,
+  "total_annotations": 4784,
+  "total_categories": 60,
+  "categories": [
+    {
+      "category_id": 11,
+      "category_name": "Aerosol",
+      "annotation_count": 10,
+      "image_count": 10
+    },
+    {
+      "category_id": 2,
+      "category_name": "Aluminium blister pack",
+      "annotation_count": 6,
+      "image_count": 6
+    },
+    {
+      "category_id": 0,
+      "category_name": "Aluminium foil",
+      "annotation_count": 62,
+      "image_count": 43
+    },
+    {
+      "category_id": 1,
+      "category_name": "Battery",
+      "annotation_count": 2,
+      "image_count": 2
+    },
+    {
+      "category_id": 9,
+      "category_name": "Broken glass",
+      "annotation_count": 138,
+      "image_count": 15
+    },
+    {
+      "category_id": 3,
+      "category_name": "Carded blister pack",
+      "annotation_count": 1,
+      "image_count": 1
+    },
+    {
+      "category_id": 59,
+      "category_name": "Cigarette",
+      "annotation_count": 667,
+      "image_count": 227
+    },
+    {
+      "category_id": 5,
+      "category_name": "Clear plastic bottle",
+      "annotation_count": 285,
+      "image_count": 225
+    },
+    {
+      "category_id": 17,
+      "category_name": "Corrugated carton",
+      "annotation_count": 64,
+      "image_count": 41
+    },
+    {
+      "category_id": 42,
+      "category_name": "Crisp packet",
+      "annotation_count": 39,
+      "image_count": 35
+    },
+    {
+      "category_id": 45,
+      "category_name": "Disposable food container",
+      "annotation_count": 38,
+      "image_count": 37
+    },
+    {
+      "category_id": 21,
+      "category_name": "Disposable plastic cup",
+      "annotation_count": 104,
+      "image_count": 91
+    },
+    {
+      "category_id": 12,
+      "category_name": "Drink can",
+      "annotation_count": 229,
+      "image_count": 151
+    },
+    {
+      "category_id": 16,
+      "category_name": "Drink carton",
+      "annotation_count": 45,
+      "image_count": 41
+    },
+    {
+      "category_id": 15,
+      "category_name": "Egg carton",
+      "annotation_count": 11,
+      "image_count": 9
+    },
+    {
+      "category_id": 22,
+      "category_name": "Foam cup",
+      "annotation_count": 13,
+      "image_count": 11
+    },
+    {
+      "category_id": 46,
+      "category_name": "Foam food container",
+      "annotation_count": 15,
+      "image_count": 13
+    },
+    {
+      "category_id": 10,
+      "category_name": "Food Can",
+      "annotation_count": 34,
+      "image_count": 20
+    },
+    {
+      "category_id": 25,
+      "category_name": "Food waste",
+      "annotation_count": 8,
+      "image_count": 7
+    },
+    {
+      "category_id": 38,
+      "category_name": "Garbage bag",
+      "annotation_count": 31,
+      "image_count": 20
+    },
+    {
+      "category_id": 6,
+      "category_name": "Glass bottle",
+      "annotation_count": 104,
+      "image_count": 74
+    },
+    {
+      "category_id": 23,
+      "category_name": "Glass cup",
+      "annotation_count": 6,
+      "image_count": 4
+    },
+    {
+      "category_id": 26,
+      "category_name": "Glass jar",
+      "annotation_count": 6,
+      "image_count": 4
+    },
+    {
+      "category_id": 30,
+      "category_name": "Magazine paper",
+      "annotation_count": 12,
+      "image_count": 5
+    },
+    {
+      "category_id": 18,
+      "category_name": "Meal carton",
+      "annotation_count": 30,
+      "image_count": 27
+    },
+    {
+      "category_id": 8,
+      "category_name": "Metal bottle cap",
+      "annotation_count": 80,
+      "image_count": 55
+    },
+    {
+      "category_id": 28,
+      "category_name": "Metal lid",
+      "annotation_count": 10,
+      "image_count": 6
+    },
+    {
+      "category_id": 33,
+      "category_name": "Normal paper",
+      "annotation_count": 82,
+      "image_count": 68
+    },
+    {
+      "category_id": 14,
+      "category_name": "Other carton",
+      "annotation_count": 93,
+      "image_count": 79
+    },
+    {
+      "category_id": 29,
+      "category_name": "Other plastic",
+      "annotation_count": 273,
+      "image_count": 171
+    },
+    {
+      "category_id": 4,
+      "category_name": "Other plastic bottle",
+      "annotation_count": 50,
+      "image_count": 45
+    },
+    {
+      "category_id": 47,
+      "category_name": "Other plastic container",
+      "annotation_count": 6,
+      "image_count": 6
+    },
+    {
+      "category_id": 24,
+      "category_name": "Other plastic cup",
+      "annotation_count": 2,
+      "image_count": 2
+    },
+    {
+      "category_id": 39,
+      "category_name": "Other plastic wrapper",
+      "annotation_count": 260,
+      "image_count": 184
+    },
+    {
+      "category_id": 34,
+      "category_name": "Paper bag",
+      "annotation_count": 27,
+      "image_count": 23
+    },
+    {
+      "category_id": 20,
+      "category_name": "Paper cup",
+      "annotation_count": 67,
+      "image_count": 62
+    },
+    {
+      "category_id": 56,
+      "category_name": "Paper straw",
+      "annotation_count": 4,
+      "image_count": 4
+    },
+    {
+      "category_id": 19,
+      "category_name": "Pizza box",
+      "annotation_count": 3,
+      "image_count": 3
+    },
+    {
+      "category_id": 7,
+      "category_name": "Plastic bottle cap",
+      "annotation_count": 209,
+      "image_count": 185
+    },
+    {
+      "category_id": 36,
+      "category_name": "Plastic film",
+      "annotation_count": 451,
+      "image_count": 310
+    },
+    {
+      "category_id": 48,
+      "category_name": "Plastic glooves",
+      "annotation_count": 4,
+      "image_count": 4
+    },
+    {
+      "category_id": 27,
+      "category_name": "Plastic lid",
+      "annotation_count": 77,
+      "image_count": 69
+    },
+    {
+      "category_id": 55,
+      "category_name": "Plastic straw",
+      "annotation_count": 157,
+      "image_count": 110
+    },
+    {
+      "category_id": 49,
+      "category_name": "Plastic utensils",
+      "annotation_count": 37,
+      "image_count": 29
+    },
+    {
+      "category_id": 35,
+      "category_name": "Plastified paper bag",
+      "annotation_count": 0,
+      "image_count": 0
+    },
+    {
+      "category_id": 41,
+      "category_name": "Polypropylene bag",
+      "annotation_count": 3,
+      "image_count": 3
+    },
+    {
+      "category_id": 50,
+      "category_name": "Pop tab",
+      "annotation_count": 99,
+      "image_count": 71
+    },
+    {
+      "category_id": 51,
+      "category_name": "Rope & strings",
+      "annotation_count": 29,
+      "image_count": 28
+    },
+    {
+      "category_id": 52,
+      "category_name": "Scrap metal",
+      "annotation_count": 20,
+      "image_count": 12
+    },
+    {
+      "category_id": 53,
+      "category_name": "Shoe",
+      "annotation_count": 7,
+      "image_count": 6
+    },
+    {
+      "category_id": 40,
+      "category_name": "Single-use carrier bag",
+      "annotation_count": 61,
+      "image_count": 49
+    },
+    {
+      "category_id": 37,
+      "category_name": "Six pack rings",
+      "annotation_count": 5,
+      "image_count": 4
+    },
+    {
+      "category_id": 43,
+      "category_name": "Spread tub",
+      "annotation_count": 9,
+      "image_count": 9
+    },
+    {
+      "category_id": 54,
+      "category_name": "Squeezable tube",
+      "annotation_count": 7,
+      "image_count": 6
+    },
+    {
+      "category_id": 57,
+      "category_name": "Styrofoam piece",
+      "annotation_count": 112,
+      "image_count": 78
+    },
+    {
+      "category_id": 31,
+      "category_name": "Tissues",
+      "annotation_count": 42,
+      "image_count": 36
+    },
+    {
+      "category_id": 13,
+      "category_name": "Toilet tube",
+      "annotation_count": 5,
+      "image_count": 3
+    },
+    {
+      "category_id": 44,
+      "category_name": "Tupperware",
+      "annotation_count": 4,
+      "image_count": 4
+    },
+    {
+      "category_id": 58,
+      "category_name": "Unlabeled litter",
+      "annotation_count": 517,
+      "image_count": 269
+    },
+    {
+      "category_id": 32,
+      "category_name": "Wrapping paper",
+      "annotation_count": 12,
+      "image_count": 11
+    }
+  ]
+}

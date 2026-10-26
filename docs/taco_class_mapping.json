@@ -1,0 +1,498 @@
+{
+  "source": "data/processed/taco/annotations_bbox_corrected.json",
+  "task": "single-class litter object detection",
+  "mapping_policy": "Map every TACO category to class_id 0 (Litter). Categories with zero annotations contribute no training instances.",
+  "classes": [
+    {
+      "class_id": 0,
+      "class_name": "Litter"
+    }
+  ],
+  "categories": [
+    {
+      "source_category_id": 0,
+      "source_category_name": "Aluminium foil",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 62,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 1,
+      "source_category_name": "Battery",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 2,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 2,
+      "source_category_name": "Aluminium blister pack",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 6,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 3,
+      "source_category_name": "Carded blister pack",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 1,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 4,
+      "source_category_name": "Other plastic bottle",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 49,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 5,
+      "source_category_name": "Clear plastic bottle",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 285,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 6,
+      "source_category_name": "Glass bottle",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 104,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 7,
+      "source_category_name": "Plastic bottle cap",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 209,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 8,
+      "source_category_name": "Metal bottle cap",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 80,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 9,
+      "source_category_name": "Broken glass",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 138,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 10,
+      "source_category_name": "Food Can",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 34,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 11,
+      "source_category_name": "Aerosol",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 10,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 12,
+      "source_category_name": "Drink can",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 228,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 13,
+      "source_category_name": "Toilet tube",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 5,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 14,
+      "source_category_name": "Other carton",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 93,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 15,
+      "source_category_name": "Egg carton",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 11,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 16,
+      "source_category_name": "Drink carton",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 45,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 17,
+      "source_category_name": "Corrugated carton",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 64,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 18,
+      "source_category_name": "Meal carton",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 30,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 19,
+      "source_category_name": "Pizza box",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 3,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 20,
+      "source_category_name": "Paper cup",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 67,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 21,
+      "source_category_name": "Disposable plastic cup",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 104,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 22,
+      "source_category_name": "Foam cup",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 13,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 23,
+      "source_category_name": "Glass cup",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 6,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 24,
+      "source_category_name": "Other plastic cup",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 2,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 25,
+      "source_category_name": "Food waste",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 8,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 26,
+      "source_category_name": "Glass jar",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 6,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 27,
+      "source_category_name": "Plastic lid",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 77,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 28,
+      "source_category_name": "Metal lid",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 10,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 29,
+      "source_category_name": "Other plastic",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 273,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 30,
+      "source_category_name": "Magazine paper",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 12,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 31,
+      "source_category_name": "Tissues",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 42,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 32,
+      "source_category_name": "Wrapping paper",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 12,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 33,
+      "source_category_name": "Normal paper",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 82,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 34,
+      "source_category_name": "Paper bag",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 24,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 35,
+      "source_category_name": "Plastified paper bag",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 0,
+      "has_instances": false
+    },
+    {
+      "source_category_id": 36,
+      "source_category_name": "Plastic film",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 451,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 37,
+      "source_category_name": "Six pack rings",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 5,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 38,
+      "source_category_name": "Garbage bag",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 31,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 39,
+      "source_category_name": "Other plastic wrapper",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 260,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 40,
+      "source_category_name": "Single-use carrier bag",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 61,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 41,
+      "source_category_name": "Polypropylene bag",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 3,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 42,
+      "source_category_name": "Crisp packet",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 39,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 43,
+      "source_category_name": "Spread tub",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 9,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 44,
+      "source_category_name": "Tupperware",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 4,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 45,
+      "source_category_name": "Disposable food container",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 38,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 46,
+      "source_category_name": "Foam food container",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 15,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 47,
+      "source_category_name": "Other plastic container",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 6,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 48,
+      "source_category_name": "Plastic glooves",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 4,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 49,
+      "source_category_name": "Plastic utensils",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 37,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 50,
+      "source_category_name": "Pop tab",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 99,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 51,
+      "source_category_name": "Rope & strings",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 29,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 52,
+      "source_category_name": "Scrap metal",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 20,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 53,
+      "source_category_name": "Shoe",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 7,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 54,
+      "source_category_name": "Squeezable tube",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 7,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 55,
+      "source_category_name": "Plastic straw",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 156,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 56,
+      "source_category_name": "Paper straw",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 4,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 57,
+      "source_category_name": "Styrofoam piece",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 112,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 58,
+      "source_category_name": "Unlabeled litter",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 517,
+      "has_instances": true
+    },
+    {
+      "source_category_id": 59,
+      "source_category_name": "Cigarette",
+      "target_class_id": 0,
+      "target_class_name": "Litter",
+      "annotation_count": 667,
+      "has_instances": true
+    }
+  ],
+  "processed_image_count": 1499,
+  "processed_annotation_count": 4778,
+  "source_category_count": 60,
+  "categories_with_instances": 59,
+  "categories_without_instances": 1
+}
