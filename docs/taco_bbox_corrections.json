@@ -1,0 +1,166 @@
+{
+  "source_file": "data\\annotations.json",
+  "output_file": "data\\processed\\taco\\annotations_bbox_corrected.json",
+  "source_images": 1500,
+  "processed_images": 1499,
+  "source_annotations": 4784,
+  "processed_annotations": 4778,
+  "excluded_image_id": 679,
+  "excluded_annotation_id": 2186,
+  "excluded_annotations_in_image": 6,
+  "bounding_boxes_corrected": 6,
+  "annotations_requiring_review": 1,
+  "annotations_skipped": 0,
+  "changes": [
+    {
+      "annotation_id": 371,
+      "image_id": 109,
+      "file_name": "batch_10/000008.jpg",
+      "image_size": [
+        1824,
+        4000
+      ],
+      "original_bbox": [
+        1003.0,
+        -1.0,
+        787.0,
+        411.0
+      ],
+      "corrected_bbox": [
+        1003.0,
+        0.0,
+        787.0,
+        410.0
+      ],
+      "reason": "Bounding box clipped to verified image boundaries"
+    },
+    {
+      "annotation_id": 387,
+      "image_id": 112,
+      "file_name": "batch_10/000011.jpg",
+      "image_size": [
+        4000,
+        1824
+      ],
+      "original_bbox": [
+        1408.0,
+        -1.0,
+        369.0,
+        471.0
+      ],
+      "corrected_bbox": [
+        1408.0,
+        0.0,
+        369.0,
+        470.0
+      ],
+      "reason": "Bounding box clipped to verified image boundaries"
+    },
+    {
+      "annotation_id": 707,
+      "image_id": 209,
+      "file_name": "batch_11/000008.jpg",
+      "image_size": [
+        1824,
+        4000
+      ],
+      "original_bbox": [
+        0.0,
+        -1.0,
+        1352.0,
+        2364.0
+      ],
+      "corrected_bbox": [
+        0.0,
+        0.0,
+        1352.0,
+        2363.0
+      ],
+      "reason": "Bounding box clipped to verified image boundaries"
+    },
+    {
+      "annotation_id": 859,
+      "image_id": 278,
+      "file_name": "batch_11/000077.jpg",
+      "image_size": [
+        3024,
+        4032
+      ],
+      "original_bbox": [
+        -1.0,
+        366.0,
+        198.0,
+        307.0
+      ],
+      "corrected_bbox": [
+        0.0,
+        366.0,
+        197.0,
+        307.0
+      ],
+      "reason": "Bounding box clipped to verified image boundaries"
+    },
+    {
+      "annotation_id": 1621,
+      "image_id": 457,
+      "file_name": "batch_13/000056.jpg",
+      "image_size": [
+        3120,
+        4160
+      ],
+      "original_bbox": [
+        799.0,
+        -1.0,
+        492.0,
+        484.0
+      ],
+      "corrected_bbox": [
+        799.0,
+        0.0,
+        492.0,
+        483.0
+      ],
+      "reason": "Bounding box clipped to verified image boundaries"
+    },
+    {
+      "annotation_id": 1777,
+      "image_id": 549,
+      "file_name": "batch_14/000048.jpg",
+      "image_size": [
+        842,
+        474
+      ],
+      "original_bbox": [
+        171.03125,
+        -1.3166667,
+        518.35625,
+        413.4333367
+      ],
+      "corrected_bbox": [
+        171.03125,
+        0.0,
+        518.35625,
+        412.11667
+      ],
+      "reason": "Bounding box clipped to verified image boundaries"
+    }
+  ],
+  "review_required": [
+    {
+      "annotation_id": 2186,
+      "image_id": 679,
+      "file_name": "batch_15/000078.jpg",
+      "annotations_in_image_excluded": 6,
+      "reason": "Annotation alignment with the actual litter object has not been verified; excluded pending manual review.",
+      "action": "Image and all its annotations excluded from processed copy"
+    }
+  ],
+  "skipped": [],
+  "limitations": [
+    "The original annotation file was not modified.",
+    "The excluded image remains in the source dataset.",
+    "Segmentation and area fields were not recalculated.",
+    "Visual inspection of the remaining dataset is still required.",
+    "The processed copy is not yet a final training split."
+  ]
+}

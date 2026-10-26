@@ -1,0 +1,59 @@
+{
+  "images_listed": 1500,
+  "annotations_checked": 4784,
+  "categories_listed": 60,
+  "annotations_with_missing_images": 0,
+  "annotations_with_invalid_categories": 0,
+  "annotations_with_invalid_boxes": 7,
+  "example_problems": [
+    {
+      "annotation_id": 371,
+      "image_id": 109,
+      "problems": [
+        "invalid_bbox"
+      ]
+    },
+    {
+      "annotation_id": 387,
+      "image_id": 112,
+      "problems": [
+        "invalid_bbox"
+      ]
+    },
+    {
+      "annotation_id": 707,
+      "image_id": 209,
+      "problems": [
+        "invalid_bbox"
+      ]
+    },
+    {
+      "annotation_id": 859,
+      "image_id": 278,
+      "problems": [
+        "invalid_bbox"
+      ]
+    },
+    {
+      "annotation_id": 1621,
+      "image_id": 457,
+      "problems": [
+        "invalid_bbox"
+      ]
+    },
+    {
+      "annotation_id": 1777,
+      "image_id": 549,
+      "problems": [
+        "invalid_bbox"
+      ]
+    },
+    {
+      "annotation_id": 2186,
+      "image_id": 679,
+      "problems": [
+        "invalid_bbox"
+      ]
+    }
+  ]
+}
