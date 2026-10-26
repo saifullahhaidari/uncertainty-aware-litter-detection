@@ -1,0 +1,12 @@
+{
+  "dataset": "TACO",
+  "label_files_checked": 1499,
+  "empty_label_files": 0,
+  "bounding_boxes_checked": 4778,
+  "error_count": 0,
+  "warning_count": 0,
+  "errors": [],
+  "warnings": [],
+  "small_box_area_threshold": 1e-06,
+  "note": "Small boxes are warnings for review, not automatic proof of incorrect annotations. This audit checks label geometry, not visual correctness."
+}

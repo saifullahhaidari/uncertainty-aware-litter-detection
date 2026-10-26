@@ -1,0 +1,20 @@
+{
+  "source_file": "data\\processed\\taco\\annotations_bbox_corrected.json",
+  "mapping_file": "docs\\taco_class_mapping.json",
+  "output_directory": "data\\processed\\taco\\yolo\\labels",
+  "processed_image_count": 1499,
+  "processed_annotation_count": 4778,
+  "label_files_written": 1499,
+  "empty_label_files": 0,
+  "class_counts": {
+    "0": 4778
+  },
+  "class_definition": [
+    {
+      "class_id": 0,
+      "class_name": "Litter"
+    }
+  ],
+  "conversion": "COCO bbox to normalized YOLO bbox",
+  "validation": "All annotations passed coordinate and mapping checks"
+}

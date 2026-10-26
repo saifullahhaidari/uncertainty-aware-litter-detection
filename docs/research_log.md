@@ -134,3 +134,16 @@ Continue auditing TACO annotation quality, including visual inspection of boundi
 - Keep scripts, configuration files, software versions, and processing reports so that the workflow can be reproduced.
 - Record training time, computational cost, and evaluation metrics only after they have actually been measured.
 - Treat publication in a Q1 or Q2 journal as an aspiration, not a guaranteed outcome.
+
+## Entry 007 — YOLO Label Geometry Quality Audit
+- Date: 2026-10-26
+- Dataset: Processed TACO
+- Label files checked: 1499
+- Bounding boxes checked: 4778
+- Empty label files: 0
+- Geometry/structure errors: 0
+- Warnings: 0
+- Visual inspection: 12 randomly selected images reviewed; boxes appeared aligned in the reviewed samples.
+- Report: docs/taco_yolo_quality_audit.json
+- Script: src/audit_yolo_labels.py
+- Limitation: Automated geometry checks do not establish complete visual or semantic correctness.
