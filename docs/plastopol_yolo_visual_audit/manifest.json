@@ -1,0 +1,79 @@
+{
+  "dataset": "PlastOPol",
+  "seed": 42,
+  "samples_per_split": 4,
+  "samples": [
+    {
+      "split": "train",
+      "image": "338173.jpg",
+      "boxes": 1,
+      "label_file": "data\\processed\\plastopol\\yolo\\labels\\train\\338173.txt"
+    },
+    {
+      "split": "train",
+      "image": "146571.jpg",
+      "boxes": 1,
+      "label_file": "data\\processed\\plastopol\\yolo\\labels\\train\\146571.txt"
+    },
+    {
+      "split": "train",
+      "image": "135524.jpg",
+      "boxes": 3,
+      "label_file": "data\\processed\\plastopol\\yolo\\labels\\train\\135524.txt"
+    },
+    {
+      "split": "train",
+      "image": "427370.jpg",
+      "boxes": 1,
+      "label_file": "data\\processed\\plastopol\\yolo\\labels\\train\\427370.txt"
+    },
+    {
+      "split": "val",
+      "image": "262121.jpg",
+      "boxes": 1,
+      "label_file": "data\\processed\\plastopol\\yolo\\labels\\val\\262121.txt"
+    },
+    {
+      "split": "val",
+      "image": "255722.jpg",
+      "boxes": 1,
+      "label_file": "data\\processed\\plastopol\\yolo\\labels\\val\\255722.txt"
+    },
+    {
+      "split": "val",
+      "image": "250081.jpg",
+      "boxes": 1,
+      "label_file": "data\\processed\\plastopol\\yolo\\labels\\val\\250081.txt"
+    },
+    {
+      "split": "val",
+      "image": "195337.jpg",
+      "boxes": 1,
+      "label_file": "data\\processed\\plastopol\\yolo\\labels\\val\\195337.txt"
+    },
+    {
+      "split": "test",
+      "image": "325073.jpg",
+      "boxes": 1,
+      "label_file": "data\\processed\\plastopol\\yolo\\labels\\test\\325073.txt"
+    },
+    {
+      "split": "test",
+      "image": "135979.jpg",
+      "boxes": 1,
+      "label_file": "data\\processed\\plastopol\\yolo\\labels\\test\\135979.txt"
+    },
+    {
+      "split": "test",
+      "image": "309598.jpg",
+      "boxes": 1,
+      "label_file": "data\\processed\\plastopol\\yolo\\labels\\test\\309598.txt"
+    },
+    {
+      "split": "test",
+      "image": "325118.jpg",
+      "boxes": 1,
+      "label_file": "data\\processed\\plastopol\\yolo\\labels\\test\\325118.txt"
+    }
+  ]
+}

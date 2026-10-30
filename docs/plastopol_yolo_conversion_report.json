@@ -1,0 +1,30 @@
+{
+  "dataset": "PlastOPol",
+  "source_category": "Trash",
+  "target_class": "Litter",
+  "target_class_id": 0,
+  "conversion": "COCO xywh pixels to normalized YOLO xywh",
+  "splits": {
+    "train": {
+      "images": 1547,
+      "annotations": 3326,
+      "label_files": 1547,
+      "empty_label_files": 0
+    },
+    "val": {
+      "images": 387,
+      "annotations": 863,
+      "label_files": 387,
+      "empty_label_files": 0
+    },
+    "test": {
+      "images": 484,
+      "annotations": 1111,
+      "label_files": 484,
+      "empty_label_files": 0
+    }
+  },
+  "total_images": 2418,
+  "total_annotations": 5300,
+  "source_images_modified": false
+}

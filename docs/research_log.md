@@ -103,30 +103,25 @@
 
 ## Current Research Status
 
-- The project repository has been created and connected to GitHub.
-- The research objectives and planned methodology are documented in `README.md`.
-- The main computer hardware and Python/PyTorch/Ultralytics environment have been verified.
-- TACO annotation structure and image-file integrity have been audited.
-- A processed TACO annotation copy has been created; the original annotation file remains unchanged.
-- Six TACO bounding boxes were clipped to verified image boundaries in the processed copy.
-- TACO image ID 679 (`batch_15/000078.jpg`) and its six annotations remain excluded pending manual review.
-- TACO has been mapped to the single target class `Litter`.
-- TACO YOLO conversion produced 1,499 label files containing 4,778 boxes; automated geometry and structure checks reported zero errors and zero warnings.
-- A visual sample of 12 TACO images was inspected; boxes appeared aligned in those reviewed samples.
-- PlastOPol source information, archive integrity, extracted image files, annotation structure, and dataset split integrity have been audited.
-- All 2,418 extracted PlastOPol images passed image validation; no missing, corrupt, unreadable, or dimension-mismatched images were reported.
-- PlastOPol contains 5,300 annotations in one source category, `Trash`; harmonization with the project's target class `Litter` remains part of dataset preparation.
-- All five PlastOPol train/validation folds passed the split-integrity checks. The official test split also passed the overlap and union checks.
-- Automated PlastOPol bounding-box geometry checks found no invalid geometries. Heuristic flags identified 341 candidate images for further review; these flags do not establish annotation errors.
-- All 5,300 PlastOPol bounding boxes passed the numerical checks for conversion to normalized YOLO coordinates. Actual PlastOPol YOLO label generation and post-conversion auditing have not yet been performed.
-- PlastOPol visual and semantic annotation review is incomplete. Random and targeted review materials have been generated, but the candidate images still require systematic human inspection.
-- Final cross-dataset class harmonization, compatibility decisions, and the experimental data-preparation strategy have not yet been finalized.
-- Model training and experimental evaluation have not yet been performed.
-- No experimental model-performance results are available yet.
+- The project repository is connected to GitHub, and the research objectives and planned methodology are documented in `README.md`.
+- The Python, PyTorch, Ultralytics, and CUDA environment has been verified.
+- TACO source annotations and image integrity have been audited. Its processed copy contains 1,499 images and 4,778 annotations mapped to the target class `Litter`.
+- TACO YOLO conversion and automated label-quality auditing are complete: 1,499 label files, 4,778 boxes, zero reported errors, and zero warnings.
+- A visual sample of 12 TACO images was inspected; boxes appeared aligned in the reviewed samples.
+- PlastOPol source provenance, archive integrity, image integrity, annotation structure, bounding-box geometry, and split integrity have been audited.
+- All 2,418 PlastOPol images passed image validation. The dataset contains 5,300 annotations in the source category `Trash`.
+- PlastOPol YOLO conversion is complete. The source category `Trash` was mapped to the common target class `Litter`.
+- PlastOPol conversion produced 1,547 training images, 387 validation images, and 484 test images, with 5,300 bounding boxes in total.
+- Automated PlastOPol YOLO quality auditing passed: 2,418 image files, 2,418 label files, 5,300 boxes, zero empty label files, zero errors, and zero warnings.
+- A random visual audit sample of 12 converted PlastOPol images was inspected, with four images from each split. The bounding boxes appeared generally aligned with the visible litter objects in the reviewed samples.
+- The 341 images flagged by heuristic geometry checks remain candidates for further targeted human review. These flags are review indicators, not confirmed annotation errors.
+- The visual inspection of 12 images does not establish complete visual or semantic correctness across either dataset.
+- Cross-dataset split strategy, experimental protocols, and final compatibility decisions still need to be established.
+- Model training and experimental evaluation have not yet been performed. No model-performance results are available.
 
 ## Next Action
 
-Complete a documented manual review of the selected PlastOPol annotation candidates and resolve the dataset-quality questions that can affect cross-dataset evaluation. Then finalize the common `Litter` class mapping and data-preparation strategy, generate PlastOPol YOLO labels, and run a post-conversion quality audit before beginning model training.
+Continue the targeted review of PlastOPol geometry-review candidates and assess cross-dataset annotation compatibility. Then define and document leakage-safe dataset splits and experimental protocols for in-domain and cross-domain evaluation before model training.
 
 ## Research Integrity
 
@@ -188,3 +183,31 @@ Complete a documented manual review of the selected PlastOPol annotation candida
 - Reports: `docs/plastopol_image_validation.json`, `docs/plastopol_fold_integrity_audit.json`, `docs/plastopol_bbox_geometry_audit.json`, `docs/plastopol_bbox_review_candidates.json`, and `docs/plastopol_visual_audit_manifest.json`.
 - Limitation: Automated structural and geometric checks cannot establish that every litter item has been annotated correctly or that every bounding box is semantically accurate.
 - Next step: Complete the targeted human review, finalize cross-dataset class harmonization, and generate and audit PlastOPol YOLO labels.
+
+## Entry 010 - PlastOPol YOLO Conversion and Quality Audit
+
+- Date: 2026-10-30
+- Dataset: PlastOPol, version 1.0
+- Source annotations: `data/raw/plastopol/annotations/`
+- Source image directory: `data/raw/plastopol/images/`
+- Target class: `Litter` (class ID 0)
+- Source-to-target mapping: `Trash` -> `Litter`
+- Conversion script: `src/convert_plastopol_to_yolo.py`
+- Conversion report: `docs/plastopol_yolo_conversion_report.json`
+- Output dataset configuration: `data/processed/plastopol/yolo/dataset.yaml`
+- Processed output: `data/processed/plastopol/yolo/`
+- Training split: 1,547 images, 1,547 label files, 3,326 bounding boxes.
+- Validation split: 387 images, 387 label files, 863 bounding boxes.
+- Test split: 484 images, 484 label files, 1,111 bounding boxes.
+- Total converted data: 2,418 images, 2,418 label files, and 5,300 bounding boxes.
+- Empty label files: 0.
+- Automated audit script: `src/audit_plastopol_yolo.py`
+- Automated audit report: `docs/plastopol_yolo_quality_audit.json`
+- Automated audit outcome: PASS; zero errors and zero warnings. All three splits passed the implemented image-label pairing, label structure, class ID, numerical, and normalized bounding-box geometry checks.
+- Visual audit script: `src/create_plastopol_yolo_visual_audit.py`
+- Visual audit image: `docs/plastopol_yolo_visual_audit/plastopol_yolo_visual_audit.png`
+- Visual audit manifest: `docs/plastopol_yolo_visual_audit/manifest.json`
+- Visual audit sampling: 12 randomly selected images using seed 42, with four images from each of the training, validation, and test splits.
+- Visual review outcome: Bounding boxes appeared generally aligned with the visible litter objects in the reviewed sample.
+- Limitations: Visual inspection covered only 12 images and does not establish complete annotation correctness. The 341 images previously flagged by heuristic geometry checks remain candidates for targeted review. Automated checks cannot establish semantic completeness or detect every missed litter object.
+- Research status: PlastOPol YOLO conversion and post-conversion automated auditing completed. Model training and experimental evaluation have not been performed.

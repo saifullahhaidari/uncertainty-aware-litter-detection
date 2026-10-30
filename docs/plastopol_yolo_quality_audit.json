@@ -1,0 +1,48 @@
+{
+  "dataset": "PlastOPol",
+  "format": "YOLO",
+  "splits": {
+    "train": {
+      "images": 1547,
+      "label_files": 1547,
+      "boxes": 3326,
+      "empty_label_files": 0,
+      "unreadable_images": 0,
+      "invalid_lines": 0,
+      "invalid_classes": 0,
+      "invalid_geometry": 0,
+      "missing_labels": 0,
+      "orphan_labels": 0
+    },
+    "val": {
+      "images": 387,
+      "label_files": 387,
+      "boxes": 863,
+      "empty_label_files": 0,
+      "unreadable_images": 0,
+      "invalid_lines": 0,
+      "invalid_classes": 0,
+      "invalid_geometry": 0,
+      "missing_labels": 0,
+      "orphan_labels": 0
+    },
+    "test": {
+      "images": 484,
+      "label_files": 484,
+      "boxes": 1111,
+      "empty_label_files": 0,
+      "unreadable_images": 0,
+      "invalid_lines": 0,
+      "invalid_classes": 0,
+      "invalid_geometry": 0,
+      "missing_labels": 0,
+      "orphan_labels": 0
+    }
+  },
+  "total_images": 2418,
+  "total_label_files": 2418,
+  "total_boxes": 5300,
+  "errors": [],
+  "warnings": [],
+  "status": "PASS"
+}
