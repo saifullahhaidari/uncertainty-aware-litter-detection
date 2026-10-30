@@ -1,0 +1,220 @@
+[
+  {
+    "image_id": 103,
+    "file_name": "304691.jpg",
+    "width": 4160,
+    "height": 3120,
+    "annotation_count": 1,
+    "annotation_ids": [
+      238
+    ]
+  },
+  {
+    "image_id": 109,
+    "file_name": "135874.jpg",
+    "width": 2448,
+    "height": 2449,
+    "annotation_count": 1,
+    "annotation_ids": [
+      250
+    ]
+  },
+  {
+    "image_id": 123,
+    "file_name": "136185.jpg",
+    "width": 3025,
+    "height": 3025,
+    "annotation_count": 1,
+    "annotation_ids": [
+      272
+    ]
+  },
+  {
+    "image_id": 131,
+    "file_name": "265531.jpg",
+    "width": 3025,
+    "height": 3025,
+    "annotation_count": 1,
+    "annotation_ids": [
+      283
+    ]
+  },
+  {
+    "image_id": 357,
+    "file_name": "146486.jpg",
+    "width": 3025,
+    "height": 3025,
+    "annotation_count": 3,
+    "annotation_ids": [
+      723,
+      724,
+      725
+    ]
+  },
+  {
+    "image_id": 384,
+    "file_name": "247881.jpg",
+    "width": 2448,
+    "height": 2449,
+    "annotation_count": 1,
+    "annotation_ids": [
+      759
+    ]
+  },
+  {
+    "image_id": 420,
+    "file_name": "300490.jpg",
+    "width": 4160,
+    "height": 3120,
+    "annotation_count": 2,
+    "annotation_ids": [
+      822,
+      823
+    ]
+  },
+  {
+    "image_id": 457,
+    "file_name": "127724.jpg",
+    "width": 2560,
+    "height": 1600,
+    "annotation_count": 2,
+    "annotation_ids": [
+      880,
+      881
+    ]
+  },
+  {
+    "image_id": 572,
+    "file_name": "303603.jpg",
+    "width": 3264,
+    "height": 2448,
+    "annotation_count": 1,
+    "annotation_ids": [
+      1068
+    ]
+  },
+  {
+    "image_id": 815,
+    "file_name": "425324.jpg",
+    "width": 3328,
+    "height": 1872,
+    "annotation_count": 1,
+    "annotation_ids": [
+      1551
+    ]
+  },
+  {
+    "image_id": 896,
+    "file_name": "136154.jpg",
+    "width": 2448,
+    "height": 2449,
+    "annotation_count": 3,
+    "annotation_ids": [
+      1718,
+      1719,
+      1720
+    ]
+  },
+  {
+    "image_id": 915,
+    "file_name": "320613.jpg",
+    "width": 3025,
+    "height": 3025,
+    "annotation_count": 1,
+    "annotation_ids": [
+      1774
+    ]
+  },
+  {
+    "image_id": 953,
+    "file_name": "304637.jpg",
+    "width": 4160,
+    "height": 3120,
+    "annotation_count": 1,
+    "annotation_ids": [
+      1920
+    ]
+  },
+  {
+    "image_id": 1004,
+    "file_name": "135892.jpg",
+    "width": 2448,
+    "height": 2449,
+    "annotation_count": 1,
+    "annotation_ids": [
+      2073
+    ]
+  },
+  {
+    "image_id": 1127,
+    "file_name": "298337.jpg",
+    "width": 4160,
+    "height": 3120,
+    "annotation_count": 1,
+    "annotation_ids": [
+      2329
+    ]
+  },
+  {
+    "image_id": 1729,
+    "file_name": "204139.jpg",
+    "width": 2448,
+    "height": 2449,
+    "annotation_count": 2,
+    "annotation_ids": [
+      3622,
+      3623
+    ]
+  },
+  {
+    "image_id": 2070,
+    "file_name": "425914.jpg",
+    "width": 4160,
+    "height": 3120,
+    "annotation_count": 2,
+    "annotation_ids": [
+      4338,
+      4339
+    ]
+  },
+  {
+    "image_id": 2233,
+    "file_name": "263726.jpg",
+    "width": 4656,
+    "height": 2620,
+    "annotation_count": 1,
+    "annotation_ids": [
+      4765
+    ]
+  },
+  {
+    "image_id": 2234,
+    "file_name": "328969.jpg",
+    "width": 4160,
+    "height": 3120,
+    "annotation_count": 11,
+    "annotation_ids": [
+      4766,
+      4767,
+      4768,
+      4769,
+      4770,
+      4771,
+      4772,
+      4773,
+      4774,
+      4775,
+      4776
+    ]
+  },
+  {
+    "image_id": 2299,
+    "file_name": "342707.jpg",
+    "width": 3025,
+    "height": 3025,
+    "annotation_count": 1,
+    "annotation_ids": [
+      4997
+    ]
+  }
+]

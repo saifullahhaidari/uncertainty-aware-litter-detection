@@ -1,0 +1,3410 @@
+{
+  "dataset": "PlastOPol",
+  "total_images": 2418,
+  "total_annotations": 5300,
+  "boundary_touching": [
+    {
+      "annotation_id": 36,
+      "image_id": 20,
+      "bbox": [
+        745,
+        1806,
+        1802,
+        1218
+      ]
+    },
+    {
+      "annotation_id": 42,
+      "image_id": 24,
+      "bbox": [
+        0,
+        784,
+        928,
+        787
+      ]
+    },
+    {
+      "annotation_id": 50,
+      "image_id": 27,
+      "bbox": [
+        2238,
+        2228,
+        209,
+        219
+      ]
+    },
+    {
+      "annotation_id": 55,
+      "image_id": 27,
+      "bbox": [
+        291,
+        0,
+        2147,
+        581
+      ]
+    },
+    {
+      "annotation_id": 61,
+      "image_id": 28,
+      "bbox": [
+        1,
+        1,
+        2248,
+        2899
+      ]
+    },
+    {
+      "annotation_id": 66,
+      "image_id": 31,
+      "bbox": [
+        2050,
+        1615,
+        974,
+        1060
+      ]
+    },
+    {
+      "annotation_id": 118,
+      "image_id": 60,
+      "bbox": [
+        3527,
+        1,
+        632,
+        570
+      ]
+    },
+    {
+      "annotation_id": 126,
+      "image_id": 65,
+      "bbox": [
+        567,
+        1779,
+        418,
+        669
+      ]
+    },
+    {
+      "annotation_id": 127,
+      "image_id": 65,
+      "bbox": [
+        0,
+        2018,
+        346,
+        358
+      ]
+    },
+    {
+      "annotation_id": 163,
+      "image_id": 73,
+      "bbox": [
+        1,
+        2898,
+        80,
+        131
+      ]
+    },
+    {
+      "annotation_id": 166,
+      "image_id": 76,
+      "bbox": [
+        634,
+        979,
+        1652,
+        2045
+      ]
+    },
+    {
+      "annotation_id": 186,
+      "image_id": 82,
+      "bbox": [
+        2052,
+        1394,
+        1212,
+        928
+      ]
+    },
+    {
+      "annotation_id": 202,
+      "image_id": 92,
+      "bbox": [
+        0,
+        789,
+        243,
+        707
+      ]
+    },
+    {
+      "annotation_id": 207,
+      "image_id": 96,
+      "bbox": [
+        2276,
+        0,
+        203,
+        197
+      ]
+    },
+    {
+      "annotation_id": 210,
+      "image_id": 98,
+      "bbox": [
+        2585,
+        0,
+        1313,
+        2611
+      ]
+    },
+    {
+      "annotation_id": 214,
+      "image_id": 100,
+      "bbox": [
+        567,
+        2046,
+        1867,
+        978
+      ]
+    },
+    {
+      "annotation_id": 226,
+      "image_id": 101,
+      "bbox": [
+        0,
+        2258,
+        690,
+        408
+      ]
+    },
+    {
+      "annotation_id": 240,
+      "image_id": 104,
+      "bbox": [
+        313,
+        1,
+        677,
+        320
+      ]
+    },
+    {
+      "annotation_id": 258,
+      "image_id": 114,
+      "bbox": [
+        0,
+        942,
+        280,
+        292
+      ]
+    },
+    {
+      "annotation_id": 263,
+      "image_id": 118,
+      "bbox": [
+        393,
+        0,
+        2530,
+        3119
+      ]
+    },
+    {
+      "annotation_id": 288,
+      "image_id": 136,
+      "bbox": [
+        0,
+        1234,
+        4143,
+        881
+      ]
+    },
+    {
+      "annotation_id": 297,
+      "image_id": 141,
+      "bbox": [
+        1592,
+        1884,
+        451,
+        564
+      ]
+    },
+    {
+      "annotation_id": 321,
+      "image_id": 157,
+      "bbox": [
+        373,
+        1,
+        1250,
+        1125
+      ]
+    },
+    {
+      "annotation_id": 323,
+      "image_id": 159,
+      "bbox": [
+        734,
+        1670,
+        1995,
+        1354
+      ]
+    },
+    {
+      "annotation_id": 335,
+      "image_id": 162,
+      "bbox": [
+        1437,
+        2724,
+        277,
+        395
+      ]
+    },
+    {
+      "annotation_id": 379,
+      "image_id": 188,
+      "bbox": [
+        1011,
+        274,
+        2252,
+        1561
+      ]
+    },
+    {
+      "annotation_id": 390,
+      "image_id": 193,
+      "bbox": [
+        2889,
+        950,
+        135,
+        228
+      ]
+    },
+    {
+      "annotation_id": 395,
+      "image_id": 195,
+      "bbox": [
+        162,
+        650,
+        3639,
+        2469
+      ]
+    },
+    {
+      "annotation_id": 402,
+      "image_id": 198,
+      "bbox": [
+        1917,
+        2456,
+        713,
+        663
+      ]
+    },
+    {
+      "annotation_id": 413,
+      "image_id": 205,
+      "bbox": [
+        1920,
+        0,
+        391,
+        124
+      ]
+    },
+    {
+      "annotation_id": 422,
+      "image_id": 205,
+      "bbox": [
+        4027,
+        827,
+        132,
+        178
+      ]
+    },
+    {
+      "annotation_id": 444,
+      "image_id": 217,
+      "bbox": [
+        2482,
+        2913,
+        145,
+        111
+      ]
+    },
+    {
+      "annotation_id": 463,
+      "image_id": 227,
+      "bbox": [
+        1050,
+        2076,
+        328,
+        245
+      ]
+    },
+    {
+      "annotation_id": 466,
+      "image_id": 228,
+      "bbox": [
+        2286,
+        353,
+        738,
+        515
+      ]
+    },
+    {
+      "annotation_id": 508,
+      "image_id": 253,
+      "bbox": [
+        414,
+        2059,
+        625,
+        965
+      ]
+    },
+    {
+      "annotation_id": 548,
+      "image_id": 270,
+      "bbox": [
+        3311,
+        656,
+        848,
+        926
+      ]
+    },
+    {
+      "annotation_id": 551,
+      "image_id": 271,
+      "bbox": [
+        1704,
+        1950,
+        928,
+        1074
+      ]
+    },
+    {
+      "annotation_id": 601,
+      "image_id": 298,
+      "bbox": [
+        13,
+        776,
+        2434,
+        1092
+      ]
+    },
+    {
+      "annotation_id": 618,
+      "image_id": 313,
+      "bbox": [
+        0,
+        1586,
+        246,
+        358
+      ]
+    },
+    {
+      "annotation_id": 623,
+      "image_id": 313,
+      "bbox": [
+        2324,
+        2189,
+        583,
+        930
+      ]
+    },
+    {
+      "annotation_id": 625,
+      "image_id": 315,
+      "bbox": [
+        991,
+        394,
+        1310,
+        2630
+      ]
+    },
+    {
+      "annotation_id": 633,
+      "image_id": 320,
+      "bbox": [
+        618,
+        2335,
+        169,
+        113
+      ]
+    },
+    {
+      "annotation_id": 663,
+      "image_id": 329,
+      "bbox": [
+        0,
+        1614,
+        81,
+        48
+      ]
+    },
+    {
+      "annotation_id": 669,
+      "image_id": 331,
+      "bbox": [
+        3153,
+        0,
+        745,
+        856
+      ]
+    },
+    {
+      "annotation_id": 671,
+      "image_id": 332,
+      "bbox": [
+        0,
+        1903,
+        551,
+        569
+      ]
+    },
+    {
+      "annotation_id": 679,
+      "image_id": 332,
+      "bbox": [
+        1873,
+        0,
+        1150,
+        766
+      ]
+    },
+    {
+      "annotation_id": 705,
+      "image_id": 348,
+      "bbox": [
+        0,
+        775,
+        398,
+        128
+      ]
+    },
+    {
+      "annotation_id": 711,
+      "image_id": 349,
+      "bbox": [
+        688,
+        0,
+        355,
+        289
+      ]
+    },
+    {
+      "annotation_id": 712,
+      "image_id": 349,
+      "bbox": [
+        1091,
+        0,
+        155,
+        118
+      ]
+    },
+    {
+      "annotation_id": 715,
+      "image_id": 350,
+      "bbox": [
+        481,
+        641,
+        2396,
+        2383
+      ]
+    },
+    {
+      "annotation_id": 737,
+      "image_id": 368,
+      "bbox": [
+        1677,
+        1227,
+        676,
+        1797
+      ]
+    },
+    {
+      "annotation_id": 784,
+      "image_id": 395,
+      "bbox": [
+        1936,
+        1,
+        813,
+        1807
+      ]
+    },
+    {
+      "annotation_id": 804,
+      "image_id": 404,
+      "bbox": [
+        341,
+        1,
+        312,
+        74
+      ]
+    },
+    {
+      "annotation_id": 817,
+      "image_id": 417,
+      "bbox": [
+        2072,
+        938,
+        375,
+        360
+      ]
+    },
+    {
+      "annotation_id": 818,
+      "image_id": 418,
+      "bbox": [
+        751,
+        1600,
+        1203,
+        1424
+      ]
+    },
+    {
+      "annotation_id": 831,
+      "image_id": 426,
+      "bbox": [
+        0,
+        1853,
+        1379,
+        797
+      ]
+    },
+    {
+      "annotation_id": 839,
+      "image_id": 434,
+      "bbox": [
+        1407,
+        218,
+        2752,
+        2901
+      ]
+    },
+    {
+      "annotation_id": 854,
+      "image_id": 443,
+      "bbox": [
+        862,
+        1060,
+        1405,
+        1964
+      ]
+    },
+    {
+      "annotation_id": 867,
+      "image_id": 449,
+      "bbox": [
+        2013,
+        0,
+        390,
+        445
+      ]
+    },
+    {
+      "annotation_id": 874,
+      "image_id": 454,
+      "bbox": [
+        544,
+        113,
+        1400,
+        1831
+      ]
+    },
+    {
+      "annotation_id": 875,
+      "image_id": 455,
+      "bbox": [
+        811,
+        3,
+        3220,
+        2766
+      ]
+    },
+    {
+      "annotation_id": 881,
+      "image_id": 457,
+      "bbox": [
+        1217,
+        0,
+        115,
+        159
+      ]
+    },
+    {
+      "annotation_id": 884,
+      "image_id": 458,
+      "bbox": [
+        3088,
+        1403,
+        175,
+        400
+      ]
+    },
+    {
+      "annotation_id": 899,
+      "image_id": 469,
+      "bbox": [
+        783,
+        1124,
+        2479,
+        1881
+      ]
+    },
+    {
+      "annotation_id": 946,
+      "image_id": 497,
+      "bbox": [
+        2227,
+        1,
+        602,
+        405
+      ]
+    },
+    {
+      "annotation_id": 965,
+      "image_id": 508,
+      "bbox": [
+        1330,
+        2808,
+        771,
+        311
+      ]
+    },
+    {
+      "annotation_id": 1010,
+      "image_id": 538,
+      "bbox": [
+        1,
+        1,
+        3939,
+        2224
+      ]
+    },
+    {
+      "annotation_id": 1032,
+      "image_id": 549,
+      "bbox": [
+        2020,
+        0,
+        1400,
+        1679
+      ]
+    },
+    {
+      "annotation_id": 1072,
+      "image_id": 575,
+      "bbox": [
+        1607,
+        327,
+        1181,
+        2792
+      ]
+    },
+    {
+      "annotation_id": 1082,
+      "image_id": 583,
+      "bbox": [
+        1366,
+        0,
+        1209,
+        3015
+      ]
+    },
+    {
+      "annotation_id": 1108,
+      "image_id": 593,
+      "bbox": [
+        3318,
+        0,
+        704,
+        458
+      ]
+    },
+    {
+      "annotation_id": 1120,
+      "image_id": 594,
+      "bbox": [
+        943,
+        661,
+        1564,
+        2363
+      ]
+    },
+    {
+      "annotation_id": 1129,
+      "image_id": 599,
+      "bbox": [
+        503,
+        283,
+        1396,
+        2165
+      ]
+    },
+    {
+      "annotation_id": 1147,
+      "image_id": 605,
+      "bbox": [
+        1263,
+        2560,
+        816,
+        464
+      ]
+    },
+    {
+      "annotation_id": 1177,
+      "image_id": 620,
+      "bbox": [
+        0,
+        1370,
+        293,
+        800
+      ]
+    },
+    {
+      "annotation_id": 1178,
+      "image_id": 620,
+      "bbox": [
+        1,
+        2336,
+        272,
+        334
+      ]
+    },
+    {
+      "annotation_id": 1180,
+      "image_id": 622,
+      "bbox": [
+        138,
+        699,
+        1965,
+        1749
+      ]
+    },
+    {
+      "annotation_id": 1198,
+      "image_id": 630,
+      "bbox": [
+        723,
+        1509,
+        1238,
+        1515
+      ]
+    },
+    {
+      "annotation_id": 1203,
+      "image_id": 632,
+      "bbox": [
+        1392,
+        2294,
+        254,
+        154
+      ]
+    },
+    {
+      "annotation_id": 1214,
+      "image_id": 643,
+      "bbox": [
+        470,
+        2409,
+        2347,
+        615
+      ]
+    },
+    {
+      "annotation_id": 1220,
+      "image_id": 647,
+      "bbox": [
+        1367,
+        1385,
+        852,
+        617
+      ]
+    },
+    {
+      "annotation_id": 1225,
+      "image_id": 651,
+      "bbox": [
+        1834,
+        2832,
+        224,
+        192
+      ]
+    },
+    {
+      "annotation_id": 1305,
+      "image_id": 686,
+      "bbox": [
+        1343,
+        1008,
+        2816,
+        842
+      ]
+    },
+    {
+      "annotation_id": 1373,
+      "image_id": 726,
+      "bbox": [
+        2051,
+        202,
+        396,
+        615
+      ]
+    },
+    {
+      "annotation_id": 1377,
+      "image_id": 727,
+      "bbox": [
+        293,
+        1507,
+        844,
+        328
+      ]
+    },
+    {
+      "annotation_id": 1386,
+      "image_id": 733,
+      "bbox": [
+        1097,
+        2053,
+        441,
+        395
+      ]
+    },
+    {
+      "annotation_id": 1387,
+      "image_id": 733,
+      "bbox": [
+        1828,
+        2279,
+        339,
+        169
+      ]
+    },
+    {
+      "annotation_id": 1404,
+      "image_id": 739,
+      "bbox": [
+        573,
+        0,
+        159,
+        100
+      ]
+    },
+    {
+      "annotation_id": 1405,
+      "image_id": 739,
+      "bbox": [
+        0,
+        1305,
+        1921,
+        913
+      ]
+    },
+    {
+      "annotation_id": 1406,
+      "image_id": 739,
+      "bbox": [
+        0,
+        247,
+        198,
+        232
+      ]
+    },
+    {
+      "annotation_id": 1448,
+      "image_id": 762,
+      "bbox": [
+        1,
+        1202,
+        97,
+        429
+      ]
+    },
+    {
+      "annotation_id": 1453,
+      "image_id": 763,
+      "bbox": [
+        2561,
+        0,
+        1470,
+        658
+      ]
+    },
+    {
+      "annotation_id": 1462,
+      "image_id": 769,
+      "bbox": [
+        1453,
+        1284,
+        457,
+        1740
+      ]
+    },
+    {
+      "annotation_id": 1478,
+      "image_id": 777,
+      "bbox": [
+        597,
+        30,
+        867,
+        2418
+      ]
+    },
+    {
+      "annotation_id": 1480,
+      "image_id": 779,
+      "bbox": [
+        895,
+        0,
+        2203,
+        3119
+      ]
+    },
+    {
+      "annotation_id": 1494,
+      "image_id": 787,
+      "bbox": [
+        1,
+        509,
+        233,
+        330
+      ]
+    },
+    {
+      "annotation_id": 1511,
+      "image_id": 792,
+      "bbox": [
+        972,
+        2818,
+        529,
+        301
+      ]
+    },
+    {
+      "annotation_id": 1516,
+      "image_id": 793,
+      "bbox": [
+        0,
+        2576,
+        1043,
+        539
+      ]
+    },
+    {
+      "annotation_id": 1525,
+      "image_id": 797,
+      "bbox": [
+        1396,
+        2413,
+        724,
+        611
+      ]
+    },
+    {
+      "annotation_id": 1545,
+      "image_id": 811,
+      "bbox": [
+        1,
+        44,
+        297,
+        264
+      ]
+    },
+    {
+      "annotation_id": 1598,
+      "image_id": 840,
+      "bbox": [
+        2029,
+        0,
+        991,
+        817
+      ]
+    },
+    {
+      "annotation_id": 1615,
+      "image_id": 847,
+      "bbox": [
+        1,
+        1769,
+        122,
+        187
+      ]
+    },
+    {
+      "annotation_id": 1624,
+      "image_id": 854,
+      "bbox": [
+        824,
+        1217,
+        1957,
+        1807
+      ]
+    },
+    {
+      "annotation_id": 1630,
+      "image_id": 858,
+      "bbox": [
+        0,
+        707,
+        179,
+        161
+      ]
+    },
+    {
+      "annotation_id": 1633,
+      "image_id": 858,
+      "bbox": [
+        0,
+        1358,
+        87,
+        303
+      ]
+    },
+    {
+      "annotation_id": 1647,
+      "image_id": 858,
+      "bbox": [
+        2323,
+        1391,
+        124,
+        217
+      ]
+    },
+    {
+      "annotation_id": 1657,
+      "image_id": 861,
+      "bbox": [
+        1608,
+        245,
+        839,
+        1160
+      ]
+    },
+    {
+      "annotation_id": 1664,
+      "image_id": 865,
+      "bbox": [
+        42,
+        159,
+        2977,
+        2865
+      ]
+    },
+    {
+      "annotation_id": 1706,
+      "image_id": 889,
+      "bbox": [
+        0,
+        1617,
+        5331,
+        719
+      ]
+    },
+    {
+      "annotation_id": 1725,
+      "image_id": 900,
+      "bbox": [
+        0,
+        807,
+        946,
+        1128
+      ]
+    },
+    {
+      "annotation_id": 1778,
+      "image_id": 918,
+      "bbox": [
+        0,
+        253,
+        720,
+        487
+      ]
+    },
+    {
+      "annotation_id": 1780,
+      "image_id": 918,
+      "bbox": [
+        0,
+        1447,
+        366,
+        1358
+      ]
+    },
+    {
+      "annotation_id": 1782,
+      "image_id": 918,
+      "bbox": [
+        1898,
+        1092,
+        1042,
+        2027
+      ]
+    },
+    {
+      "annotation_id": 1801,
+      "image_id": 924,
+      "bbox": [
+        1664,
+        1881,
+        772,
+        567
+      ]
+    },
+    {
+      "annotation_id": 1807,
+      "image_id": 925,
+      "bbox": [
+        1020,
+        0,
+        356,
+        441
+      ]
+    },
+    {
+      "annotation_id": 1808,
+      "image_id": 925,
+      "bbox": [
+        633,
+        1560,
+        3249,
+        1559
+      ]
+    },
+    {
+      "annotation_id": 1810,
+      "image_id": 925,
+      "bbox": [
+        1372,
+        0,
+        660,
+        1058
+      ]
+    },
+    {
+      "annotation_id": 1814,
+      "image_id": 929,
+      "bbox": [
+        867,
+        563,
+        620,
+        1885
+      ]
+    },
+    {
+      "annotation_id": 1824,
+      "image_id": 931,
+      "bbox": [
+        653,
+        2595,
+        626,
+        524
+      ]
+    },
+    {
+      "annotation_id": 1825,
+      "image_id": 931,
+      "bbox": [
+        0,
+        2050,
+        383,
+        825
+      ]
+    },
+    {
+      "annotation_id": 1861,
+      "image_id": 942,
+      "bbox": [
+        1,
+        978,
+        2306,
+        2044
+      ]
+    },
+    {
+      "annotation_id": 1922,
+      "image_id": 955,
+      "bbox": [
+        278,
+        55,
+        1776,
+        2393
+      ]
+    },
+    {
+      "annotation_id": 1932,
+      "image_id": 956,
+      "bbox": [
+        1,
+        5,
+        845,
+        506
+      ]
+    },
+    {
+      "annotation_id": 1949,
+      "image_id": 962,
+      "bbox": [
+        299,
+        1144,
+        1323,
+        1304
+      ]
+    },
+    {
+      "annotation_id": 1967,
+      "image_id": 965,
+      "bbox": [
+        289,
+        1,
+        1457,
+        1275
+      ]
+    },
+    {
+      "annotation_id": 1987,
+      "image_id": 972,
+      "bbox": [
+        1331,
+        2097,
+        636,
+        351
+      ]
+    },
+    {
+      "annotation_id": 1994,
+      "image_id": 973,
+      "bbox": [
+        808,
+        0,
+        528,
+        416
+      ]
+    },
+    {
+      "annotation_id": 1996,
+      "image_id": 973,
+      "bbox": [
+        0,
+        229,
+        433,
+        605
+      ]
+    },
+    {
+      "annotation_id": 2004,
+      "image_id": 976,
+      "bbox": [
+        1,
+        1,
+        581,
+        1593
+      ]
+    },
+    {
+      "annotation_id": 2011,
+      "image_id": 978,
+      "bbox": [
+        2878,
+        0,
+        310,
+        237
+      ]
+    },
+    {
+      "annotation_id": 2025,
+      "image_id": 985,
+      "bbox": [
+        1,
+        841,
+        742,
+        994
+      ]
+    },
+    {
+      "annotation_id": 2054,
+      "image_id": 999,
+      "bbox": [
+        2700,
+        255,
+        563,
+        794
+      ]
+    },
+    {
+      "annotation_id": 2056,
+      "image_id": 999,
+      "bbox": [
+        3,
+        1,
+        233,
+        328
+      ]
+    },
+    {
+      "annotation_id": 2074,
+      "image_id": 1005,
+      "bbox": [
+        1017,
+        188,
+        1034,
+        2836
+      ]
+    },
+    {
+      "annotation_id": 2075,
+      "image_id": 1005,
+      "bbox": [
+        11,
+        1909,
+        3013,
+        1109
+      ]
+    },
+    {
+      "annotation_id": 2079,
+      "image_id": 1007,
+      "bbox": [
+        3988,
+        1508,
+        171,
+        407
+      ]
+    },
+    {
+      "annotation_id": 2103,
+      "image_id": 1020,
+      "bbox": [
+        1331,
+        2285,
+        565,
+        162
+      ]
+    },
+    {
+      "annotation_id": 2114,
+      "image_id": 1030,
+      "bbox": [
+        1146,
+        886,
+        2229,
+        2233
+      ]
+    },
+    {
+      "annotation_id": 2164,
+      "image_id": 1051,
+      "bbox": [
+        3084,
+        1,
+        405,
+        378
+      ]
+    },
+    {
+      "annotation_id": 2172,
+      "image_id": 1055,
+      "bbox": [
+        1,
+        1,
+        2910,
+        3118
+      ]
+    },
+    {
+      "annotation_id": 2188,
+      "image_id": 1067,
+      "bbox": [
+        0,
+        384,
+        236,
+        254
+      ]
+    },
+    {
+      "annotation_id": 2192,
+      "image_id": 1068,
+      "bbox": [
+        239,
+        538,
+        788,
+        2486
+      ]
+    },
+    {
+      "annotation_id": 2204,
+      "image_id": 1074,
+      "bbox": [
+        1317,
+        2417,
+        471,
+        702
+      ]
+    },
+    {
+      "annotation_id": 2215,
+      "image_id": 1081,
+      "bbox": [
+        2315,
+        1905,
+        132,
+        128
+      ]
+    },
+    {
+      "annotation_id": 2273,
+      "image_id": 1099,
+      "bbox": [
+        1534,
+        2884,
+        233,
+        140
+      ]
+    },
+    {
+      "annotation_id": 2286,
+      "image_id": 1105,
+      "bbox": [
+        157,
+        0,
+        488,
+        363
+      ]
+    },
+    {
+      "annotation_id": 2326,
+      "image_id": 1125,
+      "bbox": [
+        618,
+        0,
+        2820,
+        3119
+      ]
+    },
+    {
+      "annotation_id": 2393,
+      "image_id": 1151,
+      "bbox": [
+        0,
+        786,
+        313,
+        1411
+      ]
+    },
+    {
+      "annotation_id": 2410,
+      "image_id": 1152,
+      "bbox": [
+        1559,
+        19,
+        1704,
+        220
+      ]
+    },
+    {
+      "annotation_id": 2412,
+      "image_id": 1154,
+      "bbox": [
+        866,
+        205,
+        2022,
+        2914
+      ]
+    },
+    {
+      "annotation_id": 2433,
+      "image_id": 1162,
+      "bbox": [
+        0,
+        553,
+        121,
+        272
+      ]
+    },
+    {
+      "annotation_id": 2435,
+      "image_id": 1162,
+      "bbox": [
+        5,
+        1553,
+        1043,
+        895
+      ]
+    },
+    {
+      "annotation_id": 2445,
+      "image_id": 1163,
+      "bbox": [
+        1040,
+        1,
+        258,
+        165
+      ]
+    },
+    {
+      "annotation_id": 2483,
+      "image_id": 1184,
+      "bbox": [
+        1,
+        781,
+        85,
+        235
+      ]
+    },
+    {
+      "annotation_id": 2546,
+      "image_id": 1226,
+      "bbox": [
+        1406,
+        2409,
+        895,
+        615
+      ]
+    },
+    {
+      "annotation_id": 2547,
+      "image_id": 1226,
+      "bbox": [
+        467,
+        2316,
+        963,
+        708
+      ]
+    },
+    {
+      "annotation_id": 2552,
+      "image_id": 1231,
+      "bbox": [
+        1013,
+        1,
+        1895,
+        2041
+      ]
+    },
+    {
+      "annotation_id": 2556,
+      "image_id": 1233,
+      "bbox": [
+        103,
+        671,
+        2156,
+        1777
+      ]
+    },
+    {
+      "annotation_id": 2560,
+      "image_id": 1236,
+      "bbox": [
+        1925,
+        2323,
+        109,
+        125
+      ]
+    },
+    {
+      "annotation_id": 2614,
+      "image_id": 1248,
+      "bbox": [
+        585,
+        1,
+        498,
+        291
+      ]
+    },
+    {
+      "annotation_id": 2624,
+      "image_id": 1253,
+      "bbox": [
+        133,
+        0,
+        827,
+        596
+      ]
+    },
+    {
+      "annotation_id": 2627,
+      "image_id": 1256,
+      "bbox": [
+        792,
+        1003,
+        1800,
+        2021
+      ]
+    },
+    {
+      "annotation_id": 2639,
+      "image_id": 1263,
+      "bbox": [
+        1259,
+        615,
+        1197,
+        2480
+      ]
+    },
+    {
+      "annotation_id": 2648,
+      "image_id": 1268,
+      "bbox": [
+        651,
+        609,
+        1791,
+        2415
+      ]
+    },
+    {
+      "annotation_id": 2665,
+      "image_id": 1282,
+      "bbox": [
+        1176,
+        1,
+        4135,
+        2985
+      ]
+    },
+    {
+      "annotation_id": 2669,
+      "image_id": 1283,
+      "bbox": [
+        2930,
+        0,
+        326,
+        344
+      ]
+    },
+    {
+      "annotation_id": 2670,
+      "image_id": 1283,
+      "bbox": [
+        1582,
+        0,
+        487,
+        263
+      ]
+    },
+    {
+      "annotation_id": 2676,
+      "image_id": 1283,
+      "bbox": [
+        2202,
+        2599,
+        370,
+        520
+      ]
+    },
+    {
+      "annotation_id": 2677,
+      "image_id": 1283,
+      "bbox": [
+        1901,
+        2592,
+        452,
+        527
+      ]
+    },
+    {
+      "annotation_id": 2688,
+      "image_id": 1289,
+      "bbox": [
+        2101,
+        2513,
+        738,
+        511
+      ]
+    },
+    {
+      "annotation_id": 2703,
+      "image_id": 1297,
+      "bbox": [
+        815,
+        0,
+        284,
+        394
+      ]
+    },
+    {
+      "annotation_id": 2711,
+      "image_id": 1303,
+      "bbox": [
+        1549,
+        1663,
+        554,
+        785
+      ]
+    },
+    {
+      "annotation_id": 2712,
+      "image_id": 1303,
+      "bbox": [
+        710,
+        1,
+        830,
+        2447
+      ]
+    },
+    {
+      "annotation_id": 2719,
+      "image_id": 1309,
+      "bbox": [
+        1150,
+        332,
+        667,
+        1989
+      ]
+    },
+    {
+      "annotation_id": 2720,
+      "image_id": 1310,
+      "bbox": [
+        348,
+        722,
+        2600,
+        2302
+      ]
+    },
+    {
+      "annotation_id": 2723,
+      "image_id": 1312,
+      "bbox": [
+        528,
+        1209,
+        1936,
+        1815
+      ]
+    },
+    {
+      "annotation_id": 2734,
+      "image_id": 1315,
+      "bbox": [
+        0,
+        981,
+        1805,
+        1467
+      ]
+    },
+    {
+      "annotation_id": 2774,
+      "image_id": 1324,
+      "bbox": [
+        1508,
+        2088,
+        395,
+        359
+      ]
+    },
+    {
+      "annotation_id": 2775,
+      "image_id": 1324,
+      "bbox": [
+        1952,
+        2019,
+        671,
+        428
+      ]
+    },
+    {
+      "annotation_id": 2782,
+      "image_id": 1327,
+      "bbox": [
+        2363,
+        2700,
+        385,
+        419
+      ]
+    },
+    {
+      "annotation_id": 2813,
+      "image_id": 1336,
+      "bbox": [
+        2378,
+        2389,
+        788,
+        730
+      ]
+    },
+    {
+      "annotation_id": 2831,
+      "image_id": 1344,
+      "bbox": [
+        1,
+        374,
+        992,
+        2151
+      ]
+    },
+    {
+      "annotation_id": 2837,
+      "image_id": 1346,
+      "bbox": [
+        1,
+        1765,
+        142,
+        95
+      ]
+    },
+    {
+      "annotation_id": 2852,
+      "image_id": 1351,
+      "bbox": [
+        2021,
+        0,
+        426,
+        984
+      ]
+    },
+    {
+      "annotation_id": 2855,
+      "image_id": 1353,
+      "bbox": [
+        0,
+        1846,
+        1585,
+        2138
+      ]
+    },
+    {
+      "annotation_id": 2865,
+      "image_id": 1358,
+      "bbox": [
+        3185,
+        2298,
+        484,
+        821
+      ]
+    },
+    {
+      "annotation_id": 2866,
+      "image_id": 1358,
+      "bbox": [
+        2627,
+        0,
+        442,
+        473
+      ]
+    },
+    {
+      "annotation_id": 2908,
+      "image_id": 1382,
+      "bbox": [
+        1234,
+        894,
+        728,
+        2130
+      ]
+    },
+    {
+      "annotation_id": 2935,
+      "image_id": 1390,
+      "bbox": [
+        996,
+        1011,
+        1451,
+        878
+      ]
+    },
+    {
+      "annotation_id": 2945,
+      "image_id": 1397,
+      "bbox": [
+        3600,
+        0,
+        427,
+        1184
+      ]
+    },
+    {
+      "annotation_id": 2946,
+      "image_id": 1398,
+      "bbox": [
+        356,
+        279,
+        1662,
+        2169
+      ]
+    },
+    {
+      "annotation_id": 2958,
+      "image_id": 1407,
+      "bbox": [
+        0,
+        497,
+        1476,
+        1387
+      ]
+    },
+    {
+      "annotation_id": 2981,
+      "image_id": 1412,
+      "bbox": [
+        681,
+        698,
+        1739,
+        2326
+      ]
+    },
+    {
+      "annotation_id": 3007,
+      "image_id": 1431,
+      "bbox": [
+        496,
+        360,
+        1257,
+        2664
+      ]
+    },
+    {
+      "annotation_id": 3079,
+      "image_id": 1461,
+      "bbox": [
+        456,
+        673,
+        2577,
+        2446
+      ]
+    },
+    {
+      "annotation_id": 3124,
+      "image_id": 1468,
+      "bbox": [
+        926,
+        2331,
+        1006,
+        693
+      ]
+    },
+    {
+      "annotation_id": 3125,
+      "image_id": 1468,
+      "bbox": [
+        1,
+        166,
+        438,
+        362
+      ]
+    },
+    {
+      "annotation_id": 3174,
+      "image_id": 1499,
+      "bbox": [
+        1863,
+        0,
+        328,
+        905
+      ]
+    },
+    {
+      "annotation_id": 3188,
+      "image_id": 1502,
+      "bbox": [
+        3237,
+        2750,
+        183,
+        369
+      ]
+    },
+    {
+      "annotation_id": 3209,
+      "image_id": 1506,
+      "bbox": [
+        2289,
+        2800,
+        228,
+        224
+      ]
+    },
+    {
+      "annotation_id": 3215,
+      "image_id": 1510,
+      "bbox": [
+        1495,
+        2692,
+        393,
+        427
+      ]
+    },
+    {
+      "annotation_id": 3216,
+      "image_id": 1510,
+      "bbox": [
+        456,
+        0,
+        2559,
+        2234
+      ]
+    },
+    {
+      "annotation_id": 3227,
+      "image_id": 1516,
+      "bbox": [
+        1275,
+        111,
+        794,
+        3008
+      ]
+    },
+    {
+      "annotation_id": 3252,
+      "image_id": 1532,
+      "bbox": [
+        0,
+        852,
+        3259,
+        724
+      ]
+    },
+    {
+      "annotation_id": 3257,
+      "image_id": 1536,
+      "bbox": [
+        2120,
+        2789,
+        685,
+        235
+      ]
+    },
+    {
+      "annotation_id": 3283,
+      "image_id": 1545,
+      "bbox": [
+        423,
+        884,
+        1439,
+        1564
+      ]
+    },
+    {
+      "annotation_id": 3308,
+      "image_id": 1557,
+      "bbox": [
+        4101,
+        1563,
+        58,
+        113
+      ]
+    },
+    {
+      "annotation_id": 3378,
+      "image_id": 1605,
+      "bbox": [
+        747,
+        166,
+        4515,
+        2821
+      ]
+    },
+    {
+      "annotation_id": 3450,
+      "image_id": 1632,
+      "bbox": [
+        244,
+        1,
+        1147,
+        1023
+      ]
+    },
+    {
+      "annotation_id": 3476,
+      "image_id": 1649,
+      "bbox": [
+        2091,
+        1,
+        177,
+        199
+      ]
+    },
+    {
+      "annotation_id": 3479,
+      "image_id": 1651,
+      "bbox": [
+        1212,
+        2023,
+        555,
+        425
+      ]
+    },
+    {
+      "annotation_id": 3480,
+      "image_id": 1651,
+      "bbox": [
+        1784,
+        2329,
+        352,
+        119
+      ]
+    },
+    {
+      "annotation_id": 3491,
+      "image_id": 1651,
+      "bbox": [
+        1,
+        359,
+        27,
+        40
+      ]
+    },
+    {
+      "annotation_id": 3497,
+      "image_id": 1652,
+      "bbox": [
+        1833,
+        2315,
+        415,
+        804
+      ]
+    },
+    {
+      "annotation_id": 3515,
+      "image_id": 1663,
+      "bbox": [
+        1320,
+        894,
+        509,
+        2130
+      ]
+    },
+    {
+      "annotation_id": 3559,
+      "image_id": 1688,
+      "bbox": [
+        0,
+        450,
+        91,
+        147
+      ]
+    },
+    {
+      "annotation_id": 3579,
+      "image_id": 1703,
+      "bbox": [
+        166,
+        1347,
+        3993,
+        987
+      ]
+    },
+    {
+      "annotation_id": 3582,
+      "image_id": 1704,
+      "bbox": [
+        1725,
+        1,
+        720,
+        1206
+      ]
+    },
+    {
+      "annotation_id": 3611,
+      "image_id": 1723,
+      "bbox": [
+        298,
+        1,
+        682,
+        579
+      ]
+    },
+    {
+      "annotation_id": 3612,
+      "image_id": 1723,
+      "bbox": [
+        0,
+        288,
+        70,
+        185
+      ]
+    },
+    {
+      "annotation_id": 3617,
+      "image_id": 1726,
+      "bbox": [
+        518,
+        1122,
+        1551,
+        1326
+      ]
+    },
+    {
+      "annotation_id": 3639,
+      "image_id": 1737,
+      "bbox": [
+        0,
+        338,
+        2177,
+        2110
+      ]
+    },
+    {
+      "annotation_id": 3674,
+      "image_id": 1755,
+      "bbox": [
+        3668,
+        865,
+        491,
+        975
+      ]
+    },
+    {
+      "annotation_id": 3690,
+      "image_id": 1763,
+      "bbox": [
+        1885,
+        1650,
+        513,
+        1469
+      ]
+    },
+    {
+      "annotation_id": 3736,
+      "image_id": 1793,
+      "bbox": [
+        1748,
+        2610,
+        965,
+        509
+      ]
+    },
+    {
+      "annotation_id": 3787,
+      "image_id": 1819,
+      "bbox": [
+        979,
+        1441,
+        2037,
+        1583
+      ]
+    },
+    {
+      "annotation_id": 3789,
+      "image_id": 1820,
+      "bbox": [
+        111,
+        2183,
+        374,
+        264
+      ]
+    },
+    {
+      "annotation_id": 3790,
+      "image_id": 1821,
+      "bbox": [
+        1132,
+        0,
+        760,
+        2897
+      ]
+    },
+    {
+      "annotation_id": 3808,
+      "image_id": 1829,
+      "bbox": [
+        1,
+        614,
+        518,
+        435
+      ]
+    },
+    {
+      "annotation_id": 3816,
+      "image_id": 1834,
+      "bbox": [
+        540,
+        60,
+        2326,
+        3059
+      ]
+    },
+    {
+      "annotation_id": 3823,
+      "image_id": 1840,
+      "bbox": [
+        693,
+        0,
+        1020,
+        1088
+      ]
+    },
+    {
+      "annotation_id": 3826,
+      "image_id": 1840,
+      "bbox": [
+        2643,
+        2730,
+        325,
+        389
+      ]
+    },
+    {
+      "annotation_id": 3832,
+      "image_id": 1843,
+      "bbox": [
+        2539,
+        1,
+        347,
+        338
+      ]
+    },
+    {
+      "annotation_id": 3843,
+      "image_id": 1853,
+      "bbox": [
+        2127,
+        0,
+        1742,
+        1976
+      ]
+    },
+    {
+      "annotation_id": 3852,
+      "image_id": 1859,
+      "bbox": [
+        1,
+        860,
+        84,
+        106
+      ]
+    },
+    {
+      "annotation_id": 3855,
+      "image_id": 1860,
+      "bbox": [
+        1,
+        575,
+        194,
+        788
+      ]
+    },
+    {
+      "annotation_id": 3864,
+      "image_id": 1867,
+      "bbox": [
+        707,
+        911,
+        3452,
+        1120
+      ]
+    },
+    {
+      "annotation_id": 3908,
+      "image_id": 1885,
+      "bbox": [
+        127,
+        0,
+        1476,
+        753
+      ]
+    },
+    {
+      "annotation_id": 3912,
+      "image_id": 1886,
+      "bbox": [
+        2153,
+        0,
+        796,
+        589
+      ]
+    },
+    {
+      "annotation_id": 3922,
+      "image_id": 1891,
+      "bbox": [
+        1824,
+        3011,
+        526,
+        108
+      ]
+    },
+    {
+      "annotation_id": 3948,
+      "image_id": 1899,
+      "bbox": [
+        0,
+        2659,
+        301,
+        72
+      ]
+    },
+    {
+      "annotation_id": 3961,
+      "image_id": 1906,
+      "bbox": [
+        1344,
+        848,
+        1547,
+        1473
+      ]
+    },
+    {
+      "annotation_id": 3964,
+      "image_id": 1908,
+      "bbox": [
+        44,
+        1523,
+        633,
+        695
+      ]
+    },
+    {
+      "annotation_id": 3965,
+      "image_id": 1909,
+      "bbox": [
+        1,
+        593,
+        250,
+        101
+      ]
+    },
+    {
+      "annotation_id": 3966,
+      "image_id": 1910,
+      "bbox": [
+        3820,
+        3077,
+        211,
+        154
+      ]
+    },
+    {
+      "annotation_id": 4007,
+      "image_id": 1931,
+      "bbox": [
+        804,
+        1976,
+        1060,
+        1143
+      ]
+    },
+    {
+      "annotation_id": 4010,
+      "image_id": 1933,
+      "bbox": [
+        1527,
+        0,
+        2504,
+        1669
+      ]
+    },
+    {
+      "annotation_id": 4057,
+      "image_id": 1951,
+      "bbox": [
+        2273,
+        1914,
+        1036,
+        677
+      ]
+    },
+    {
+      "annotation_id": 4058,
+      "image_id": 1951,
+      "bbox": [
+        3277,
+        561,
+        1330,
+        2028
+      ]
+    },
+    {
+      "annotation_id": 4067,
+      "image_id": 1951,
+      "bbox": [
+        1,
+        2335,
+        206,
+        128
+      ]
+    },
+    {
+      "annotation_id": 4108,
+      "image_id": 1960,
+      "bbox": [
+        1,
+        3514,
+        367,
+        410
+      ]
+    },
+    {
+      "annotation_id": 4122,
+      "image_id": 1964,
+      "bbox": [
+        1714,
+        0,
+        2124,
+        2858
+      ]
+    },
+    {
+      "annotation_id": 4124,
+      "image_id": 1966,
+      "bbox": [
+        90,
+        0,
+        1989,
+        2140
+      ]
+    },
+    {
+      "annotation_id": 4129,
+      "image_id": 1970,
+      "bbox": [
+        538,
+        815,
+        950,
+        1129
+      ]
+    },
+    {
+      "annotation_id": 4130,
+      "image_id": 1970,
+      "bbox": [
+        612,
+        0,
+        288,
+        1459
+      ]
+    },
+    {
+      "annotation_id": 4136,
+      "image_id": 1975,
+      "bbox": [
+        1279,
+        622,
+        1168,
+        1071
+      ]
+    },
+    {
+      "annotation_id": 4164,
+      "image_id": 1991,
+      "bbox": [
+        851,
+        0,
+        922,
+        1388
+      ]
+    },
+    {
+      "annotation_id": 4178,
+      "image_id": 1994,
+      "bbox": [
+        2243,
+        0,
+        240,
+        100
+      ]
+    },
+    {
+      "annotation_id": 4188,
+      "image_id": 1997,
+      "bbox": [
+        1208,
+        0,
+        565,
+        790
+      ]
+    },
+    {
+      "annotation_id": 4208,
+      "image_id": 2004,
+      "bbox": [
+        1719,
+        389,
+        1753,
+        1932
+      ]
+    },
+    {
+      "annotation_id": 4231,
+      "image_id": 2014,
+      "bbox": [
+        1748,
+        0,
+        525,
+        530
+      ]
+    },
+    {
+      "annotation_id": 4267,
+      "image_id": 2035,
+      "bbox": [
+        0,
+        1392,
+        1566,
+        1174
+      ]
+    },
+    {
+      "annotation_id": 4282,
+      "image_id": 2040,
+      "bbox": [
+        453,
+        0,
+        263,
+        252
+      ]
+    },
+    {
+      "annotation_id": 4284,
+      "image_id": 2040,
+      "bbox": [
+        3068,
+        1116,
+        195,
+        315
+      ]
+    },
+    {
+      "annotation_id": 4308,
+      "image_id": 2046,
+      "bbox": [
+        1905,
+        1020,
+        314,
+        772
+      ]
+    },
+    {
+      "annotation_id": 4309,
+      "image_id": 2047,
+      "bbox": [
+        0,
+        594,
+        2214,
+        1593
+      ]
+    },
+    {
+      "annotation_id": 4310,
+      "image_id": 2047,
+      "bbox": [
+        1308,
+        1389,
+        1000,
+        1059
+      ]
+    },
+    {
+      "annotation_id": 4328,
+      "image_id": 2062,
+      "bbox": [
+        818,
+        109,
+        628,
+        2339
+      ]
+    },
+    {
+      "annotation_id": 4329,
+      "image_id": 2063,
+      "bbox": [
+        682,
+        672,
+        1485,
+        2352
+      ]
+    },
+    {
+      "annotation_id": 4339,
+      "image_id": 2070,
+      "bbox": [
+        1,
+        653,
+        306,
+        303
+      ]
+    },
+    {
+      "annotation_id": 4341,
+      "image_id": 2071,
+      "bbox": [
+        0,
+        1112,
+        251,
+        421
+      ]
+    },
+    {
+      "annotation_id": 4370,
+      "image_id": 2082,
+      "bbox": [
+        3707,
+        1121,
+        452,
+        532
+      ]
+    },
+    {
+      "annotation_id": 4379,
+      "image_id": 2089,
+      "bbox": [
+        1,
+        825,
+        2678,
+        2194
+      ]
+    },
+    {
+      "annotation_id": 4394,
+      "image_id": 2099,
+      "bbox": [
+        798,
+        813,
+        2038,
+        2211
+      ]
+    },
+    {
+      "annotation_id": 4395,
+      "image_id": 2099,
+      "bbox": [
+        0,
+        400,
+        1117,
+        1628
+      ]
+    },
+    {
+      "annotation_id": 4416,
+      "image_id": 2106,
+      "bbox": [
+        2102,
+        0,
+        265,
+        275
+      ]
+    },
+    {
+      "annotation_id": 4424,
+      "image_id": 2107,
+      "bbox": [
+        0,
+        1334,
+        2807,
+        1690
+      ]
+    },
+    {
+      "annotation_id": 4436,
+      "image_id": 2111,
+      "bbox": [
+        22,
+        1336,
+        4137,
+        595
+      ]
+    },
+    {
+      "annotation_id": 4449,
+      "image_id": 2123,
+      "bbox": [
+        485,
+        0,
+        805,
+        717
+      ]
+    },
+    {
+      "annotation_id": 4483,
+      "image_id": 2141,
+      "bbox": [
+        2932,
+        223,
+        395,
+        456
+      ]
+    },
+    {
+      "annotation_id": 4486,
+      "image_id": 2142,
+      "bbox": [
+        607,
+        28,
+        1575,
+        2996
+      ]
+    },
+    {
+      "annotation_id": 4497,
+      "image_id": 2143,
+      "bbox": [
+        402,
+        0,
+        116,
+        110
+      ]
+    },
+    {
+      "annotation_id": 4498,
+      "image_id": 2143,
+      "bbox": [
+        1,
+        888,
+        100,
+        163
+      ]
+    },
+    {
+      "annotation_id": 4575,
+      "image_id": 2166,
+      "bbox": [
+        2378,
+        763,
+        213,
+        134
+      ]
+    },
+    {
+      "annotation_id": 4578,
+      "image_id": 2168,
+      "bbox": [
+        287,
+        599,
+        1669,
+        1849
+      ]
+    },
+    {
+      "annotation_id": 4584,
+      "image_id": 2173,
+      "bbox": [
+        1078,
+        524,
+        2478,
+        2595
+      ]
+    },
+    {
+      "annotation_id": 4672,
+      "image_id": 2214,
+      "bbox": [
+        2465,
+        2846,
+        132,
+        141
+      ]
+    },
+    {
+      "annotation_id": 4731,
+      "image_id": 2224,
+      "bbox": [
+        1791,
+        382,
+        2336,
+        1937
+      ]
+    },
+    {
+      "annotation_id": 4756,
+      "image_id": 2231,
+      "bbox": [
+        2217,
+        0,
+        213,
+        211
+      ]
+    },
+    {
+      "annotation_id": 4757,
+      "image_id": 2231,
+      "bbox": [
+        1601,
+        0,
+        471,
+        933
+      ]
+    },
+    {
+      "annotation_id": 4792,
+      "image_id": 2242,
+      "bbox": [
+        401,
+        1841,
+        995,
+        1183
+      ]
+    },
+    {
+      "annotation_id": 4860,
+      "image_id": 2258,
+      "bbox": [
+        1976,
+        513,
+        1048,
+        1187
+      ]
+    },
+    {
+      "annotation_id": 4861,
+      "image_id": 2258,
+      "bbox": [
+        0,
+        909,
+        504,
+        1432
+      ]
+    },
+    {
+      "annotation_id": 4866,
+      "image_id": 2260,
+      "bbox": [
+        1,
+        1192,
+        337,
+        435
+      ]
+    },
+    {
+      "annotation_id": 4867,
+      "image_id": 2260,
+      "bbox": [
+        0,
+        307,
+        285,
+        364
+      ]
+    },
+    {
+      "annotation_id": 4871,
+      "image_id": 2260,
+      "bbox": [
+        1544,
+        2289,
+        168,
+        159
+      ]
+    },
+    {
+      "annotation_id": 4885,
+      "image_id": 2263,
+      "bbox": [
+        2215,
+        1374,
+        232,
+        155
+      ]
+    },
+    {
+      "annotation_id": 4909,
+      "image_id": 2270,
+      "bbox": [
+        1810,
+        3,
+        134,
+        712
+      ]
+    },
+    {
+      "annotation_id": 4955,
+      "image_id": 2291,
+      "bbox": [
+        363,
+        0,
+        2310,
+        3119
+      ]
+    },
+    {
+      "annotation_id": 4979,
+      "image_id": 2295,
+      "bbox": [
+        881,
+        2216,
+        527,
+        231
+      ]
+    },
+    {
+      "annotation_id": 4984,
+      "image_id": 2295,
+      "bbox": [
+        0,
+        1006,
+        341,
+        379
+      ]
+    },
+    {
+      "annotation_id": 4987,
+      "image_id": 2295,
+      "bbox": [
+        882,
+        0,
+        1249,
+        667
+      ]
+    },
+    {
+      "annotation_id": 4988,
+      "image_id": 2295,
+      "bbox": [
+        62,
+        0,
+        977,
+        549
+      ]
+    },
+    {
+      "annotation_id": 5004,
+      "image_id": 2304,
+      "bbox": [
+        336,
+        7,
+        3628,
+        3112
+      ]
+    },
+    {
+      "annotation_id": 5076,
+      "image_id": 2340,
+      "bbox": [
+        3,
+        2028,
+        767,
+        1091
+      ]
+    },
+    {
+      "annotation_id": 5079,
+      "image_id": 2343,
+      "bbox": [
+        3517,
+        627,
+        642,
+        846
+      ]
+    },
+    {
+      "annotation_id": 5086,
+      "image_id": 2343,
+      "bbox": [
+        2859,
+        0,
+        126,
+        89
+      ]
+    },
+    {
+      "annotation_id": 5119,
+      "image_id": 2357,
+      "bbox": [
+        534,
+        565,
+        1685,
+        993
+      ]
+    },
+    {
+      "annotation_id": 5124,
+      "image_id": 2360,
+      "bbox": [
+        0,
+        1132,
+        464,
+        800
+      ]
+    },
+    {
+      "annotation_id": 5127,
+      "image_id": 2360,
+      "bbox": [
+        0,
+        345,
+        803,
+        1031
+      ]
+    },
+    {
+      "annotation_id": 5128,
+      "image_id": 2360,
+      "bbox": [
+        0,
+        1712,
+        2327,
+        736
+      ]
+    },
+    {
+      "annotation_id": 5129,
+      "image_id": 2361,
+      "bbox": [
+        1,
+        707,
+        4002,
+        1818
+      ]
+    },
+    {
+      "annotation_id": 5135,
+      "image_id": 2367,
+      "bbox": [
+        0,
+        673,
+        3846,
+        1596
+      ]
+    },
+    {
+      "annotation_id": 5143,
+      "image_id": 2373,
+      "bbox": [
+        991,
+        3,
+        1138,
+        3021
+      ]
+    },
+    {
+      "annotation_id": 5145,
+      "image_id": 2374,
+      "bbox": [
+        0,
+        851,
+        499,
+        851
+      ]
+    },
+    {
+      "annotation_id": 5146,
+      "image_id": 2374,
+      "bbox": [
+        0,
+        2102,
+        514,
+        116
+      ]
+    },
+    {
+      "annotation_id": 5192,
+      "image_id": 2385,
+      "bbox": [
+        1158,
+        0,
+        1470,
+        3119
+      ]
+    },
+    {
+      "annotation_id": 5210,
+      "image_id": 2392,
+      "bbox": [
+        1172,
+        2320,
+        259,
+        128
+      ]
+    },
+    {
+      "annotation_id": 5225,
+      "image_id": 2394,
+      "bbox": [
+        0,
+        479,
+        731,
+        725
+      ]
+    },
+    {
+      "annotation_id": 5267,
+      "image_id": 2409,
+      "bbox": [
+        1266,
+        276,
+        2888,
+        2843
+      ]
+    },
+    {
+      "annotation_id": 5273,
+      "image_id": 2413,
+      "bbox": [
+        0,
+        858,
+        897,
+        1164
+      ]
+    },
+    {
+      "annotation_id": 5274,
+      "image_id": 2413,
+      "bbox": [
+        0,
+        1743,
+        377,
+        702
+      ]
+    }
+  ],
+  "very_small_boxes": [
+    22,
+    1900,
+    1904,
+    2344,
+    2576,
+    2578,
+    2590,
+    2592,
+    2751,
+    2756,
+    2757,
+    2759,
+    3198,
+    3202,
+    3336,
+    3337,
+    3969,
+    4555,
+    4563,
+    4568,
+    4652,
+    4673,
+    4828,
+    4855,
+    4993,
+    4994,
+    5165
+  ],
+  "very_large_boxes": [
+    43,
+    44,
+    61,
+    100,
+    263,
+    318,
+    322,
+    379,
+    395,
+    458,
+    522,
+    581,
+    687,
+    715,
+    735,
+    839,
+    846,
+    874,
+    875,
+    925,
+    950,
+    1010,
+    1129,
+    1179,
+    1180,
+    1233,
+    1276,
+    1301,
+    1396,
+    1429,
+    1480,
+    1484,
+    1611,
+    1664,
+    1702,
+    1722,
+    1812,
+    1861,
+    1922,
+    2013,
+    2116,
+    2172,
+    2182,
+    2209,
+    2324,
+    2326,
+    2535,
+    2539,
+    2556,
+    2662,
+    2665,
+    2702,
+    2720,
+    2808,
+    2946,
+    3041,
+    3143,
+    3367,
+    3378,
+    3422,
+    3639,
+    3675,
+    3731,
+    3766,
+    3816,
+    3958,
+    4038,
+    4068,
+    4124,
+    4148,
+    4264,
+    4309,
+    4379,
+    4424,
+    4486,
+    4578,
+    4732,
+    4800,
+    4955,
+    5004,
+    5014,
+    5016,
+    5035,
+    5129,
+    5185,
+    5186,
+    5267
+  ],
+  "extreme_aspect_ratio": [
+    {
+      "annotation_id": 89,
+      "image_id": 43,
+      "aspect_ratio": 12.493
+    },
+    {
+      "annotation_id": 103,
+      "image_id": 50,
+      "aspect_ratio": 18.065
+    },
+    {
+      "annotation_id": 604,
+      "image_id": 301,
+      "aspect_ratio": 20.418
+    },
+    {
+      "annotation_id": 1570,
+      "image_id": 829,
+      "aspect_ratio": 15.562
+    },
+    {
+      "annotation_id": 1618,
+      "image_id": 850,
+      "aspect_ratio": 13.901
+    },
+    {
+      "annotation_id": 1862,
+      "image_id": 943,
+      "aspect_ratio": 10.85
+    },
+    {
+      "annotation_id": 2527,
+      "image_id": 1212,
+      "aspect_ratio": 17.857
+    },
+    {
+      "annotation_id": 3166,
+      "image_id": 1492,
+      "aspect_ratio": 12.319
+    },
+    {
+      "annotation_id": 3213,
+      "image_id": 1508,
+      "aspect_ratio": 17.512
+    },
+    {
+      "annotation_id": 3228,
+      "image_id": 1517,
+      "aspect_ratio": 11.669
+    }
+  ],
+  "invalid_geometry": [],
+  "aspect_ratio_distribution": {
+    "normal_<=3": 4950,
+    "unusual_3_to_10": 340,
+    "extreme_>10": 10
+  },
+  "summary": {
+    "boundary_touching_count": 322,
+    "very_small_count": 27,
+    "very_large_count": 87,
+    "extreme_aspect_ratio_count": 10,
+    "invalid_geometry_count": 0
+  }
+}

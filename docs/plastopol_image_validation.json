@@ -1,0 +1,97 @@
+{
+  "dataset": "PlastOPol",
+  "annotation_file": "data\\raw\\plastopol\\annotations\\full_plastopol.json",
+  "image_directory": "data\\raw\\plastopol\\images",
+  "annotated_images": 2418,
+  "extracted_files": 2418,
+  "valid_images_fully_loaded": 2418,
+  "missing_images": [],
+  "corrupt_or_unreadable_images": [],
+  "dimension_mismatches": [],
+  "missing_annotation_dimensions": [],
+  "image_formats": {
+    "JPEG": 2418
+  },
+  "most_common_dimensions": [
+    [
+      "4160x3120",
+      789
+    ],
+    [
+      "3025x3025",
+      634
+    ],
+    [
+      "2448x2449",
+      203
+    ],
+    [
+      "4032x3024",
+      145
+    ],
+    [
+      "3264x2448",
+      101
+    ],
+    [
+      "5312x2988",
+      54
+    ],
+    [
+      "3264x1836",
+      54
+    ],
+    [
+      "3328x1872",
+      52
+    ],
+    [
+      "4128x2322",
+      36
+    ],
+    [
+      "2220x2219",
+      35
+    ],
+    [
+      "1945x1945",
+      33
+    ],
+    [
+      "4656x2620",
+      32
+    ],
+    [
+      "3265x3265",
+      24
+    ],
+    [
+      "5344x3006",
+      22
+    ],
+    [
+      "4032x4033",
+      19
+    ],
+    [
+      "4032x2268",
+      18
+    ],
+    [
+      "2560x1536",
+      17
+    ],
+    [
+      "2576x1932",
+      17
+    ],
+    [
+      "4608x3456",
+      17
+    ],
+    [
+      "4128x3096",
+      17
+    ]
+  ]
+}
