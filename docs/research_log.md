@@ -101,39 +101,6 @@
 - **Limitations:** Segmentation and area fields were not recalculated. The remaining annotations have not all undergone visual review. The processed copy is not yet a final training dataset.
 - **Status:** Initial bounding-box processing and structural validation completed.
 
-## Current Research Status
-
-- The project repository is connected to GitHub, and the research objectives and planned methodology are documented in `README.md`.
-- The Python, PyTorch, Ultralytics, and CUDA environment has been verified.
-- TACO source annotations and image integrity have been audited. Its processed copy contains 1,499 images and 4,778 annotations mapped to the target class `Litter`.
-- TACO YOLO conversion and automated label-quality auditing are complete: 1,499 label files, 4,778 boxes, zero reported errors, and zero warnings.
-- A visual sample of 12 TACO images was inspected; boxes appeared aligned in the reviewed samples.
-- PlastOPol source provenance, archive integrity, image integrity, annotation structure, bounding-box geometry, and split integrity have been audited.
-- All 2,418 PlastOPol images passed image validation. The dataset contains 5,300 annotations in the source category `Trash`.
-- PlastOPol YOLO conversion is complete. The source category `Trash` was mapped to the common target class `Litter`.
-- PlastOPol conversion produced 1,547 training images, 387 validation images, and 484 test images, with 5,300 bounding boxes in total.
-- Automated PlastOPol YOLO quality auditing passed: 2,418 image files, 2,418 label files, 5,300 boxes, zero empty label files, zero errors, and zero warnings.
-- A random visual audit sample of 12 converted PlastOPol images was inspected, with four images from each split. The bounding boxes appeared generally aligned with the visible litter objects in the reviewed samples.
-- The 341 images flagged by heuristic geometry checks remain candidates for further targeted human review. These flags are review indicators, not confirmed annotation errors.
-- The visual inspection of 12 images does not establish complete visual or semantic correctness across either dataset.
-- Cross-dataset split strategy, experimental protocols, and final compatibility decisions still need to be established.
-- Model training and experimental evaluation have not yet been performed. No model-performance results are available.
-
-## Next Action
-
-Continue the targeted review of PlastOPol geometry-review candidates and assess cross-dataset annotation compatibility. Then define and document leakage-safe dataset splits and experimental protocols for in-domain and cross-domain evaluation before model training.
-
-## Research Integrity
-
-- Record actual observations and results.
-- Distinguish completed work from planned work.
-- Document failures, data-quality concerns, methodological changes, and limitations.
-- Do not report unverified measurements as experimental findings.
-- Preserve the original dataset and annotations; perform corrections in separate processed copies.
-- Keep scripts, configuration files, software versions, and processing reports so that the workflow can be reproduced.
-- Record training time, computational cost, and evaluation metrics only after they have actually been measured.
-- Treat publication in a Q1 or Q2 journal as an aspiration, not a guaranteed outcome.
-
 ## Entry 007 — YOLO Label Geometry Quality Audit
 - Date: 2026-10-26
 - Dataset: Processed TACO
@@ -211,3 +178,124 @@ Continue the targeted review of PlastOPol geometry-review candidates and assess 
 - Visual review outcome: Bounding boxes appeared generally aligned with the visible litter objects in the reviewed sample.
 - Limitations: Visual inspection covered only 12 images and does not establish complete annotation correctness. The 341 images previously flagged by heuristic geometry checks remain candidates for targeted review. Automated checks cannot establish semantic completeness or detect every missed litter object.
 - Research status: PlastOPol YOLO conversion and post-conversion automated auditing completed. Model training and experimental evaluation have not been performed.
+
+## Entry 011 - PlastOPol Geometry-Focused External Annotation Review (Batches 01 and 02)
+
+- Date: 2026-10-30
+- Dataset: PlastOPol, version 1.0
+- Review scope: Targeted review of images selected by heuristic geometry flags.
+- Selection source: `docs/plastopol_bbox_review_candidates.json`
+- Review batches: `docs/plastopol_targeted_geometry_review/review_batch_01.json` and `review_batch_02.json`
+- Review image-generation script: `src/create_plastopol_geometry_review.py`
+- Annotation crop-generation script: `src/create_plastopol_annotation_crops.py`
+- Review ledger: `docs/plastopol_annotation_review_ledger.csv`
+- Batch 01 external review summary: `docs/plastopol_targeted_geometry_review/batch_01/external_review_summary.json`
+- Batch 02 external review summary: `docs/plastopol_targeted_geometry_review/batch_02/external_review_summary.json`
+- Total images reviewed externally: 20.
+- Total unique annotations reviewed externally: 29.
+- Batch 01: 10 images and 19 annotations; Gemini decisions: 19 VALID, 0 INCORRECT_BBOX, 0 UNCERTAIN, and 0 NEEDS_SEMANTIC_REVIEW.
+- Batch 02: 10 images and 10 annotations; Gemini decisions: 10 VALID, 0 INCORRECT_BBOX, 0 UNCERTAIN, and 0 NEEDS_SEMANTIC_REVIEW.
+- External reviewer confidence: All 29 decisions were reported as High confidence.
+- Identity verification: Batch 02 image IDs, filenames, and annotation IDs were cross-checked against the original `full_plastopol.json`; all 10 image-annotation identities passed.
+- Identity correction: The initial Gemini response contained incorrect annotation IDs for nine Batch 02 records. The decisions were associated with source annotations only after verifying the image identities and confirming that each selected image contained exactly one flagged annotation. Correct IDs were recorded in the ledger.
+- Source-data integrity: No original PlastOPol annotations or bounding boxes were modified.
+- Human review status: All 29 records remain pending human review; no human decisions are claimed.
+- Limitations: This is external AI-assisted visual review, not independent human ground truth. Only 20 of the 341 geometry-flagged candidate images have been reviewed in these two batches. Visual inspection does not establish semantic completeness or correctness of all dataset annotations.
+- Research status: Two targeted external-review batches completed and documented. Geometry review of the remaining candidates is ongoing. Model training and experimental evaluation have not been performed.
+
+## Entry 012 - PlastOPol Geometry-Focused External Review (Batch 03)
+
+- Date: 2026-10-31
+- Dataset: PlastOPol, version 1.0
+- Review scope: Third targeted batch selected from the geometry-flagged candidate images.
+- Batch manifest: `docs/plastopol_targeted_geometry_review/review_batch_03.json`
+- Review materials: `docs/plastopol_targeted_geometry_review/batch_03/`
+- Review-generation script: `src/create_plastopol_geometry_review.py`
+- External review summary: `docs/plastopol_targeted_geometry_review/batch_03/external_review_summary.json`
+- Review ledger: `docs/plastopol_annotation_review_ledger.csv`
+- Sample size: 10 images and 10 flagged annotations.
+- External reviewer: Gemini.
+- External decisions: 10 VALID, 0 INCORRECT_BBOX, 0 UNCERTAIN, and 0 NEEDS_SEMANTIC_REVIEW.
+- Reported confidence: High for all 10 decisions.
+- Source identity verification: All 10 image IDs and filenames matched `full_plastopol.json`; image dimensions matched the source; all 10 flagged annotation IDs were confirmed to belong to their corresponding images.
+- Identity verification outcome: PASS; zero failed checks.
+- Review material limitation: Gemini reported evaluating the attached image panel named `1a.jpg`. Individual full-resolution review of all 10 images was not independently confirmed.
+- Human review status: All 10 records remain pending human review. Gemini decisions are external AI-assisted assessments, not human ground truth.
+- Ledger update: 10 records added; total ledger size increased from 29 to 39 records. A pre-update backup was preserved.
+- Source-data integrity: Original PlastOPol images and annotations were not modified.
+- Cumulative external review across Batches 01-03: 30 images and 39 unique annotations; all 39 external decisions were VALID with High reported confidence.
+- Coverage limitation: Only 30 of the 341 geometry-flagged candidate images have received external AI-assisted review. The remaining candidates have not all been reviewed.
+- Research status: Batch 03 external review and documentation completed. Human review remains pending. Model training and experimental evaluation have not been performed.
+
+## Entry 013 — PlastOPol Targeted Geometry Review: Batch 04
+
+- **Date:** 2026-10-31
+- **Dataset:** PlastOPol v1.0.
+- **Review scope:** The fourth targeted batch, selected from the next unreviewed priority candidates (priority positions 31?40).
+- **Batch manifest:** `docs/plastopol_targeted_geometry_review/review_batch_04.json`.
+- **Review materials:** `docs/plastopol_targeted_geometry_review/batch_04/`.
+- **External response:** `docs/plastopol_targeted_geometry_review/batch_04/gemini_response.json`.
+- **External review summary:** `docs/plastopol_targeted_geometry_review/batch_04/external_review_summary.json`.
+- **Annotation ledger:** `docs/plastopol_annotation_review_ledger.csv`.
+
+### Results
+
+- 10 images and 13 flagged annotation instances were included.
+- All 13 external decisions were `VALID`, with `High` confidence.
+- No `INCORRECT`, `UNCERTAIN`, or `SEMANTIC_REVIEW` decisions were returned.
+- Image identity, filenames, image dimensions, annotation ownership, and source bounding-box correspondence passed verification.
+- The annotation-level ledger increased from 39 to 52 records.
+- The 13 new records were added with human review status still `pending` and reviewer decision `not_assessed`.
+- A pre-update ledger backup was saved as `docs/plastopol_annotation_review_ledger.before_batch_04.csv`.
+
+### Limitations and research integrity
+
+- Gemini's decisions are external AI review results, not human ground truth.
+- The exact visual materials inspected by Gemini were not independently confirmed.
+- Citation markers included in the Gemini response were not treated as verified evidence.
+- A `VALID` geometric decision does not establish semantic completeness or prove that all litter objects in an image were annotated.
+- The original PlastOPol source annotations were not modified.
+- Human review remains pending for all 52 externally reviewed annotation records.
+
+### Cumulative status
+
+Across Batches 01?04, 40 unique candidate images and 52 unique flagged annotations have received external AI review. All 52 decisions were `VALID` with `High` confidence. This is a priority-based review sample, not a representative statistical sample of all 341 candidate images. No model training or performance evaluation has been conducted.
+
+
+## Current Research Status
+
+### Dataset preparation
+
+- **TACO:** The processed one-class dataset contains 1,499 images and 4,778 annotations. Image ID 679 remains excluded pending manual review.
+- **PlastOPol:** The one-class YOLO dataset contains 2,418 images and 5,300 annotations across train, validation, and test splits. Automated YOLO quality audit passed with zero errors and zero warnings.
+- **PlastOPol geometry review:** Four priority batches have been externally reviewed: 40 unique images and 52 flagged annotations. Gemini returned `VALID` with `High` confidence for all 52.
+- **Human review:** All 52 externally reviewed annotation records remain pending human assessment. External AI review must not be interpreted as human ground truth.
+- **Review coverage:** The four batches cover 40 of 341 geometry-review candidate images. The sample is priority-based and does not support generalizing an error rate to all candidates.
+- **Source integrity:** Original dataset annotations have been preserved; corrections and converted labels are stored separately.
+
+### Model and evaluation
+
+- Model training has not started.
+- Cross-dataset performance evaluation has not started.
+- Uncertainty estimation and inference/resource measurements remain planned work.
+
+
+## Next Action
+
+1. Assess whether the current geometry-review coverage is sufficient or whether further priority batches are needed. Consider coverage of different flag types rather than relying only on the number of reviewed images.
+2. Plan independent human assessment for the pending records, especially ambiguous geometry and semantic completeness cases.
+3. Resolve the remaining dataset-audit decisions, including the TACO image excluded pending manual review.
+4. After dataset preparation and review decisions are sufficiently documented, finalize the cross-dataset experimental protocol and leakage-safe evaluation plan.
+5. Begin model training only after the dataset versions, splits, class mapping, and evaluation protocol are frozen and documented.
+
+
+## Research Integrity
+
+- Record actual observations and results.
+- Distinguish completed work from planned work.
+- Document failures, data-quality concerns, methodological changes, and limitations.
+- Do not report unverified measurements as experimental findings.
+- Preserve the original dataset and annotations; perform corrections in separate processed copies.
+- Keep scripts, configuration files, software versions, and processing reports so that the workflow can be reproduced.
+- Record training time, computational cost, and evaluation metrics only after they have actually been measured.
+- Treat publication in a Q1 or Q2 journal as an aspiration, not a guaranteed outcome.

@@ -1,0 +1,183 @@
+{
+  "dataset": "PlastOPol",
+  "batch": 2,
+  "review_date": "2026-10-30",
+  "review_type": "Geometry-focused visual annotation audit",
+  "review_method": "External AI-assisted visual review",
+  "external_reviewer": "Gemini",
+  "selection_criteria": [
+    "boundary_touching",
+    "very_large"
+  ],
+  "images_reviewed": 10,
+  "unique_annotations_reviewed": 10,
+  "decision_counts": {
+    "VALID": 10,
+    "INCORRECT_BBOX": 0,
+    "UNCERTAIN": 0,
+    "NEEDS_SEMANTIC_REVIEW": 0
+  },
+  "confidence_counts": {
+    "High": 10
+  },
+  "human_review_status": {
+    "pending": 10
+  },
+  "identity_verification": {
+    "status": "PASS",
+    "method": "Cross-checked batch manifest against full_plastopol.json",
+    "verified_images": 10,
+    "verified_annotations": 10
+  },
+  "identity_correction_note": "The initial Gemini response used incorrect annotation IDs for 9 of the 10 records. The review decisions were associated with the correct source annotations only after matching Image ID and filename and verifying that each selected image contained exactly one flagged annotation. The corrected annotation IDs are recorded in this report and the review ledger.",
+  "findings": "Gemini classified all 10 annotations as VALID with High confidence. No bounding-box corrections were recommended. The geometry flags were considered compatible with large or frame-truncated objects.",
+  "limitations": [
+    "This is an external AI-assisted review, not independent human ground truth.",
+    "Only 10 of the 341 geometry-flagged candidate images have been reviewed in Batches 01 and 02.",
+    "Visual review does not establish semantic completeness of all dataset annotations.",
+    "The source annotations were not modified.",
+    "Human review remains pending for all 10 annotations in this batch."
+  ],
+  "records": [
+    {
+      "image_id": 350,
+      "file_name": "427367.jpg",
+      "annotation_id": 715,
+      "flag_types": [
+        "boundary_touching",
+        "very_large"
+      ],
+      "external_decision": "VALID",
+      "external_confidence": "High",
+      "external_reviewer": "Gemini",
+      "human_review_status": "pending",
+      "human_decision": "not_assessed"
+    },
+    {
+      "image_id": 434,
+      "file_name": "320101.jpg",
+      "annotation_id": 839,
+      "flag_types": [
+        "boundary_touching",
+        "very_large"
+      ],
+      "external_decision": "VALID",
+      "external_confidence": "High",
+      "external_reviewer": "Gemini",
+      "human_review_status": "pending",
+      "human_decision": "not_assessed"
+    },
+    {
+      "image_id": 454,
+      "file_name": "135082.jpg",
+      "annotation_id": 874,
+      "flag_types": [
+        "boundary_touching",
+        "very_large"
+      ],
+      "external_decision": "VALID",
+      "external_confidence": "High",
+      "external_reviewer": "Gemini",
+      "human_review_status": "pending",
+      "human_decision": "not_assessed"
+    },
+    {
+      "image_id": 455,
+      "file_name": "255850.jpg",
+      "annotation_id": 875,
+      "flag_types": [
+        "boundary_touching",
+        "very_large"
+      ],
+      "external_decision": "VALID",
+      "external_confidence": "High",
+      "external_reviewer": "Gemini",
+      "human_review_status": "pending",
+      "human_decision": "not_assessed"
+    },
+    {
+      "image_id": 538,
+      "file_name": "135630.jpg",
+      "annotation_id": 1010,
+      "flag_types": [
+        "boundary_touching",
+        "very_large"
+      ],
+      "external_decision": "VALID",
+      "external_confidence": "High",
+      "external_reviewer": "Gemini",
+      "human_review_status": "pending",
+      "human_decision": "not_assessed"
+    },
+    {
+      "image_id": 599,
+      "file_name": "331532.jpg",
+      "annotation_id": 1129,
+      "flag_types": [
+        "boundary_touching",
+        "very_large"
+      ],
+      "external_decision": "VALID",
+      "external_confidence": "High",
+      "external_reviewer": "Gemini",
+      "human_review_status": "pending",
+      "human_decision": "not_assessed"
+    },
+    {
+      "image_id": 622,
+      "file_name": "135677.jpg",
+      "annotation_id": 1180,
+      "flag_types": [
+        "boundary_touching",
+        "very_large"
+      ],
+      "external_decision": "VALID",
+      "external_confidence": "High",
+      "external_reviewer": "Gemini",
+      "human_review_status": "pending",
+      "human_decision": "not_assessed"
+    },
+    {
+      "image_id": 779,
+      "file_name": "297319.jpg",
+      "annotation_id": 1480,
+      "flag_types": [
+        "boundary_touching",
+        "very_large"
+      ],
+      "external_decision": "VALID",
+      "external_confidence": "High",
+      "external_reviewer": "Gemini",
+      "human_review_status": "pending",
+      "human_decision": "not_assessed"
+    },
+    {
+      "image_id": 865,
+      "file_name": "178566.jpg",
+      "annotation_id": 1664,
+      "flag_types": [
+        "boundary_touching",
+        "very_large"
+      ],
+      "external_decision": "VALID",
+      "external_confidence": "High",
+      "external_reviewer": "Gemini",
+      "human_review_status": "pending",
+      "human_decision": "not_assessed"
+    },
+    {
+      "image_id": 942,
+      "file_name": "321669.jpg",
+      "annotation_id": 1861,
+      "flag_types": [
+        "boundary_touching",
+        "very_large"
+      ],
+      "external_decision": "VALID",
+      "external_confidence": "High",
+      "external_reviewer": "Gemini",
+      "human_review_status": "pending",
+      "human_decision": "not_assessed"
+    }
+  ]
+}

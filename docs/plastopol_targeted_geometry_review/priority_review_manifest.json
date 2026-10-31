@@ -1,0 +1,401 @@
+{
+  "dataset": "PlastOPol",
+  "selection": "Top 30 geometry-review candidates",
+  "selection_method": "Priority ranking from geometry audit",
+  "images": [
+    {
+      "image_id": 1236,
+      "file_name": "136142.jpg",
+      "original_size": [
+        2449,
+        2449
+      ],
+      "flagged_annotation_count": 5,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_small": 4
+      }
+    },
+    {
+      "image_id": 24,
+      "file_name": "146455.jpg",
+      "original_size": [
+        2448,
+        2449
+      ],
+      "flagged_annotation_count": 2,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 1297,
+      "file_name": "402272.jpg",
+      "original_size": [
+        4032,
+        3024
+      ],
+      "flagged_annotation_count": 2,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 1910,
+      "file_name": "268268.jpg",
+      "original_size": [
+        4032,
+        4033
+      ],
+      "flagged_annotation_count": 2,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_small": 1
+      }
+    },
+    {
+      "image_id": 2047,
+      "file_name": "259570.jpg",
+      "original_size": [
+        2448,
+        2449
+      ],
+      "flagged_annotation_count": 2,
+      "flag_counts": {
+        "boundary_touching": 2,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 2214,
+      "file_name": "136673.jpg",
+      "original_size": [
+        5312,
+        2988
+      ],
+      "flagged_annotation_count": 2,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_small": 1
+      }
+    },
+    {
+      "image_id": 28,
+      "file_name": "248879.jpg",
+      "original_size": [
+        4032,
+        3024
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 118,
+      "file_name": "443426.jpg",
+      "original_size": [
+        4160,
+        3120
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 188,
+      "file_name": "135497.jpg",
+      "original_size": [
+        3264,
+        1836
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 195,
+      "file_name": "297176.jpg",
+      "original_size": [
+        4160,
+        3120
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 350,
+      "file_name": "427367.jpg",
+      "original_size": [
+        3025,
+        3025
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 434,
+      "file_name": "320101.jpg",
+      "original_size": [
+        4160,
+        3120
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 454,
+      "file_name": "135082.jpg",
+      "original_size": [
+        1945,
+        1945
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 455,
+      "file_name": "255850.jpg",
+      "original_size": [
+        4032,
+        3024
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 538,
+      "file_name": "135630.jpg",
+      "original_size": [
+        4128,
+        3096
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 599,
+      "file_name": "331532.jpg",
+      "original_size": [
+        2448,
+        2449
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 622,
+      "file_name": "135677.jpg",
+      "original_size": [
+        2448,
+        2449
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 779,
+      "file_name": "297319.jpg",
+      "original_size": [
+        4160,
+        3120
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 865,
+      "file_name": "178566.jpg",
+      "original_size": [
+        3025,
+        3025
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 942,
+      "file_name": "321669.jpg",
+      "original_size": [
+        3025,
+        3025
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 955,
+      "file_name": "140002.jpg",
+      "original_size": [
+        2448,
+        2449
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 1055,
+      "file_name": "443420.jpg",
+      "original_size": [
+        4160,
+        3120
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 1125,
+      "file_name": "443422.jpg",
+      "original_size": [
+        4160,
+        3120
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 1233,
+      "file_name": "136216.jpg",
+      "original_size": [
+        2448,
+        2449
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 1282,
+      "file_name": "228696.jpg",
+      "original_size": [
+        5312,
+        2988
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 1310,
+      "file_name": "427395.jpg",
+      "original_size": [
+        3025,
+        3025
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 1398,
+      "file_name": "242780.jpg",
+      "original_size": [
+        2448,
+        2449
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 1605,
+      "file_name": "135170.jpg",
+      "original_size": [
+        5312,
+        2988
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 1737,
+      "file_name": "135978.jpg",
+      "original_size": [
+        2448,
+        2449
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    },
+    {
+      "image_id": 1834,
+      "file_name": "297113.jpg",
+      "original_size": [
+        4160,
+        3120
+      ],
+      "flagged_annotation_count": 1,
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      }
+    }
+  ],
+  "selected_count": 30,
+  "successfully_rendered": 30,
+  "missing_files": [],
+  "contact_sheet": "docs\\plastopol_targeted_geometry_review\\priority_contact_sheet.png"
+}

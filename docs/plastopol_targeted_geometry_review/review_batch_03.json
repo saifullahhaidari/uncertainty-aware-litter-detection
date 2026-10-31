@@ -1,0 +1,358 @@
+{
+  "dataset": "PlastOPol",
+  "batch": 3,
+  "selection": "Priority review manifest positions 21-30; verified against candidate records and source annotations.",
+  "selection_count": 10,
+  "images": [
+    {
+      "image_id": 955,
+      "file_name": "140002.jpg",
+      "annotation_ids": [
+        1922
+      ],
+      "flags": [
+        {
+          "annotation_id": 1922,
+          "type": "boundary_touching",
+          "bbox": [
+            278,
+            55,
+            1776,
+            2393
+          ]
+        },
+        {
+          "annotation_id": 1922,
+          "type": "very_large",
+          "bbox": [
+            278,
+            55,
+            1776,
+            2393
+          ]
+        }
+      ],
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      },
+      "unique_flag_count": 2,
+      "flagged_annotation_count": 1
+    },
+    {
+      "image_id": 1055,
+      "file_name": "443420.jpg",
+      "annotation_ids": [
+        2172
+      ],
+      "flags": [
+        {
+          "annotation_id": 2172,
+          "type": "boundary_touching",
+          "bbox": [
+            1,
+            1,
+            2910,
+            3118
+          ]
+        },
+        {
+          "annotation_id": 2172,
+          "type": "very_large",
+          "bbox": [
+            1,
+            1,
+            2910,
+            3118
+          ]
+        }
+      ],
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      },
+      "unique_flag_count": 2,
+      "flagged_annotation_count": 1
+    },
+    {
+      "image_id": 1125,
+      "file_name": "443422.jpg",
+      "annotation_ids": [
+        2326
+      ],
+      "flags": [
+        {
+          "annotation_id": 2326,
+          "type": "boundary_touching",
+          "bbox": [
+            618,
+            0,
+            2820,
+            3119
+          ]
+        },
+        {
+          "annotation_id": 2326,
+          "type": "very_large",
+          "bbox": [
+            618,
+            0,
+            2820,
+            3119
+          ]
+        }
+      ],
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      },
+      "unique_flag_count": 2,
+      "flagged_annotation_count": 1
+    },
+    {
+      "image_id": 1233,
+      "file_name": "136216.jpg",
+      "annotation_ids": [
+        2556
+      ],
+      "flags": [
+        {
+          "annotation_id": 2556,
+          "type": "boundary_touching",
+          "bbox": [
+            103,
+            671,
+            2156,
+            1777
+          ]
+        },
+        {
+          "annotation_id": 2556,
+          "type": "very_large",
+          "bbox": [
+            103,
+            671,
+            2156,
+            1777
+          ]
+        }
+      ],
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      },
+      "unique_flag_count": 2,
+      "flagged_annotation_count": 1
+    },
+    {
+      "image_id": 1282,
+      "file_name": "228696.jpg",
+      "annotation_ids": [
+        2665
+      ],
+      "flags": [
+        {
+          "annotation_id": 2665,
+          "type": "boundary_touching",
+          "bbox": [
+            1176,
+            1,
+            4135,
+            2985
+          ]
+        },
+        {
+          "annotation_id": 2665,
+          "type": "very_large",
+          "bbox": [
+            1176,
+            1,
+            4135,
+            2985
+          ]
+        }
+      ],
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      },
+      "unique_flag_count": 2,
+      "flagged_annotation_count": 1
+    },
+    {
+      "image_id": 1310,
+      "file_name": "427395.jpg",
+      "annotation_ids": [
+        2720
+      ],
+      "flags": [
+        {
+          "annotation_id": 2720,
+          "type": "boundary_touching",
+          "bbox": [
+            348,
+            722,
+            2600,
+            2302
+          ]
+        },
+        {
+          "annotation_id": 2720,
+          "type": "very_large",
+          "bbox": [
+            348,
+            722,
+            2600,
+            2302
+          ]
+        }
+      ],
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      },
+      "unique_flag_count": 2,
+      "flagged_annotation_count": 1
+    },
+    {
+      "image_id": 1398,
+      "file_name": "242780.jpg",
+      "annotation_ids": [
+        2946
+      ],
+      "flags": [
+        {
+          "annotation_id": 2946,
+          "type": "boundary_touching",
+          "bbox": [
+            356,
+            279,
+            1662,
+            2169
+          ]
+        },
+        {
+          "annotation_id": 2946,
+          "type": "very_large",
+          "bbox": [
+            356,
+            279,
+            1662,
+            2169
+          ]
+        }
+      ],
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      },
+      "unique_flag_count": 2,
+      "flagged_annotation_count": 1
+    },
+    {
+      "image_id": 1605,
+      "file_name": "135170.jpg",
+      "annotation_ids": [
+        3378
+      ],
+      "flags": [
+        {
+          "annotation_id": 3378,
+          "type": "boundary_touching",
+          "bbox": [
+            747,
+            166,
+            4515,
+            2821
+          ]
+        },
+        {
+          "annotation_id": 3378,
+          "type": "very_large",
+          "bbox": [
+            747,
+            166,
+            4515,
+            2821
+          ]
+        }
+      ],
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      },
+      "unique_flag_count": 2,
+      "flagged_annotation_count": 1
+    },
+    {
+      "image_id": 1737,
+      "file_name": "135978.jpg",
+      "annotation_ids": [
+        3639
+      ],
+      "flags": [
+        {
+          "annotation_id": 3639,
+          "type": "boundary_touching",
+          "bbox": [
+            0,
+            338,
+            2177,
+            2110
+          ]
+        },
+        {
+          "annotation_id": 3639,
+          "type": "very_large",
+          "bbox": [
+            0,
+            338,
+            2177,
+            2110
+          ]
+        }
+      ],
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      },
+      "unique_flag_count": 2,
+      "flagged_annotation_count": 1
+    },
+    {
+      "image_id": 1834,
+      "file_name": "297113.jpg",
+      "annotation_ids": [
+        3816
+      ],
+      "flags": [
+        {
+          "annotation_id": 3816,
+          "type": "boundary_touching",
+          "bbox": [
+            540,
+            60,
+            2326,
+            3059
+          ]
+        },
+        {
+          "annotation_id": 3816,
+          "type": "very_large",
+          "bbox": [
+            540,
+            60,
+            2326,
+            3059
+          ]
+        }
+      ],
+      "flag_counts": {
+        "boundary_touching": 1,
+        "very_large": 1
+      },
+      "unique_flag_count": 2,
+      "flagged_annotation_count": 1
+    }
+  ]
+}

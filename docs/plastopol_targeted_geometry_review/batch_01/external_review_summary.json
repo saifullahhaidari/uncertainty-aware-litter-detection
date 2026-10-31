@@ -1,0 +1,51 @@
+{
+  "dataset": "PlastOPol",
+  "review_batch": "Batch 01",
+  "review_date": "2026-10-30",
+  "reviewer": "Gemini",
+  "review_type": "External AI-assisted visual annotation review",
+  "scope": {
+    "images": 10,
+    "annotations": 19,
+    "image_ids": [
+      24,
+      28,
+      118,
+      188,
+      195,
+      1236,
+      1297,
+      1910,
+      2047,
+      2214
+    ]
+  },
+  "results": {
+    "valid": 19,
+    "incorrect_bbox": 0,
+    "uncertain": 0,
+    "needs_semantic_review": 0
+  },
+  "identity_verification": {
+    "status": "passed",
+    "note": "The first five annotations were verified against the source JSON and correctly assigned to Image ID 1236, filename 136142.jpg. Gemini's initial table incorrectly identified them as Image ID 1235."
+  },
+  "follow_up": {
+    "annotation_id": 2590,
+    "image_id": 1236,
+    "decision": "VALID",
+    "confidence": "High",
+    "note": "Gemini's follow-up review of the original image and crop judged the 42x9 pixel box to tightly cover a small litter item."
+  },
+  "human_review": {
+    "status": "pending",
+    "note": "External AI decisions are not treated as independent human verification."
+  },
+  "limitations": [
+    "Only 10 of the 341 geometry-flagged candidate images were reviewed.",
+    "The external review was performed by an AI system.",
+    "Visual review does not establish complete semantic annotation quality.",
+    "No source annotations were modified."
+  ],
+  "source_ledger": "docs\\plastopol_annotation_review_ledger.csv"
+}

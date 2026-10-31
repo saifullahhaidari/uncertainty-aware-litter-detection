@@ -1,0 +1,161 @@
+[
+  {
+    "image_id": 1236,
+    "file_name": "136142.jpg",
+    "original_width": 2449,
+    "original_height": 2449,
+    "annotation_count": 35,
+    "flagged_annotation_ids": [
+      2560,
+      2576,
+      2578,
+      2590,
+      2592
+    ],
+    "flag_types": {
+      "boundary_touching": 1,
+      "very_small": 4
+    },
+    "review_image": "docs\\plastopol_targeted_geometry_review\\batch_01\\1236_review.jpg"
+  },
+  {
+    "image_id": 24,
+    "file_name": "146455.jpg",
+    "original_width": 2448,
+    "original_height": 2449,
+    "annotation_count": 2,
+    "flagged_annotation_ids": [
+      42,
+      43
+    ],
+    "flag_types": {
+      "boundary_touching": 1,
+      "very_large": 1
+    },
+    "review_image": "docs\\plastopol_targeted_geometry_review\\batch_01\\24_review.jpg"
+  },
+  {
+    "image_id": 1297,
+    "file_name": "402272.jpg",
+    "original_width": 4032,
+    "original_height": 3024,
+    "annotation_count": 2,
+    "flagged_annotation_ids": [
+      2702,
+      2703
+    ],
+    "flag_types": {
+      "boundary_touching": 1,
+      "very_large": 1
+    },
+    "review_image": "docs\\plastopol_targeted_geometry_review\\batch_01\\1297_review.jpg"
+  },
+  {
+    "image_id": 1910,
+    "file_name": "268268.jpg",
+    "original_width": 4032,
+    "original_height": 4033,
+    "annotation_count": 11,
+    "flagged_annotation_ids": [
+      3966,
+      3969
+    ],
+    "flag_types": {
+      "boundary_touching": 1,
+      "very_small": 1
+    },
+    "review_image": "docs\\plastopol_targeted_geometry_review\\batch_01\\1910_review.jpg"
+  },
+  {
+    "image_id": 2047,
+    "file_name": "259570.jpg",
+    "original_width": 2448,
+    "original_height": 2449,
+    "annotation_count": 2,
+    "flagged_annotation_ids": [
+      4309,
+      4310
+    ],
+    "flag_types": {
+      "boundary_touching": 2,
+      "very_large": 1
+    },
+    "review_image": "docs\\plastopol_targeted_geometry_review\\batch_01\\2047_review.jpg"
+  },
+  {
+    "image_id": 2214,
+    "file_name": "136673.jpg",
+    "original_width": 5312,
+    "original_height": 2988,
+    "annotation_count": 23,
+    "flagged_annotation_ids": [
+      4672,
+      4673
+    ],
+    "flag_types": {
+      "boundary_touching": 1,
+      "very_small": 1
+    },
+    "review_image": "docs\\plastopol_targeted_geometry_review\\batch_01\\2214_review.jpg"
+  },
+  {
+    "image_id": 28,
+    "file_name": "248879.jpg",
+    "original_width": 4032,
+    "original_height": 3024,
+    "annotation_count": 1,
+    "flagged_annotation_ids": [
+      61
+    ],
+    "flag_types": {
+      "boundary_touching": 1,
+      "very_large": 1
+    },
+    "review_image": "docs\\plastopol_targeted_geometry_review\\batch_01\\28_review.jpg"
+  },
+  {
+    "image_id": 118,
+    "file_name": "443426.jpg",
+    "original_width": 4160,
+    "original_height": 3120,
+    "annotation_count": 1,
+    "flagged_annotation_ids": [
+      263
+    ],
+    "flag_types": {
+      "boundary_touching": 1,
+      "very_large": 1
+    },
+    "review_image": "docs\\plastopol_targeted_geometry_review\\batch_01\\118_review.jpg"
+  },
+  {
+    "image_id": 188,
+    "file_name": "135497.jpg",
+    "original_width": 3264,
+    "original_height": 1836,
+    "annotation_count": 4,
+    "flagged_annotation_ids": [
+      379
+    ],
+    "flag_types": {
+      "boundary_touching": 1,
+      "very_large": 1
+    },
+    "review_image": "docs\\plastopol_targeted_geometry_review\\batch_01\\188_review.jpg"
+  },
+  {
+    "image_id": 195,
+    "file_name": "297176.jpg",
+    "original_width": 4160,
+    "original_height": 3120,
+    "annotation_count": 1,
+    "flagged_annotation_ids": [
+      395
+    ],
+    "flag_types": {
+      "boundary_touching": 1,
+      "very_large": 1
+    },
+    "review_image": "docs\\plastopol_targeted_geometry_review\\batch_01\\195_review.jpg"
+  }
+]

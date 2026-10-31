@@ -1,0 +1,121 @@
+{
+  "dataset": "PlastOPol",
+  "batch": 3,
+  "review_date": "2026-10-31",
+  "review_type": "External AI-assisted visual review",
+  "external_reviewer": "Gemini",
+  "selection_basis": [
+    "Geometry review candidates from priority review manifest",
+    "Boundary-touching and very-large bounding-box flags"
+  ],
+  "review_material": {
+    "reported_by_reviewer": "Attached image panel named 1a.jpg",
+    "individual_full_resolution_review_confirmed": false
+  },
+  "sample_size": {
+    "images": 10,
+    "flagged_annotations": 10
+  },
+  "decisions": {
+    "VALID": 10
+  },
+  "confidence": {
+    "High": 10
+  },
+  "source_identity_verification": {
+    "image_filename_match": "PASS",
+    "image_dimensions_match": "PASS",
+    "annotation_ownership": "PASS",
+    "verified_images": 10,
+    "failed_checks": 0
+  },
+  "findings": [
+    "All 10 reviewed annotations were classified as VALID by Gemini.",
+    "No incorrect bounding boxes, uncertain cases, or semantic-review cases were reported."
+  ],
+  "human_review": {
+    "status": "pending",
+    "records_pending": 10,
+    "human_ground_truth_established": false
+  },
+  "limitations": [
+    "This is an external AI-assisted review, not human ground truth.",
+    "The reviewer reported using the attached panel named 1a.jpg.",
+    "Individual full-resolution review of all images was not independently confirmed.",
+    "Visual review does not establish semantic completeness or prove that all litter objects were annotated.",
+    "Only 30 of 341 candidate images have been externally reviewed across Batches 01-03.",
+    "Original dataset annotations and images were not modified."
+  ],
+  "annotation_records": [
+    {
+      "image_id": 955,
+      "file_name": "140002.jpg",
+      "annotation_id": 1922,
+      "decision": "VALID",
+      "confidence": "High"
+    },
+    {
+      "image_id": 1055,
+      "file_name": "443420.jpg",
+      "annotation_id": 2172,
+      "decision": "VALID",
+      "confidence": "High"
+    },
+    {
+      "image_id": 1125,
+      "file_name": "443422.jpg",
+      "annotation_id": 2326,
+      "decision": "VALID",
+      "confidence": "High"
+    },
+    {
+      "image_id": 1233,
+      "file_name": "136216.jpg",
+      "annotation_id": 2556,
+      "decision": "VALID",
+      "confidence": "High"
+    },
+    {
+      "image_id": 1282,
+      "file_name": "228696.jpg",
+      "annotation_id": 2665,
+      "decision": "VALID",
+      "confidence": "High"
+    },
+    {
+      "image_id": 1310,
+      "file_name": "427395.jpg",
+      "annotation_id": 2720,
+      "decision": "VALID",
+      "confidence": "High"
+    },
+    {
+      "image_id": 1398,
+      "file_name": "242780.jpg",
+      "annotation_id": 2946,
+      "decision": "VALID",
+      "confidence": "High"
+    },
+    {
+      "image_id": 1605,
+      "file_name": "135170.jpg",
+      "annotation_id": 3378,
+      "decision": "VALID",
+      "confidence": "High"
+    },
+    {
+      "image_id": 1737,
+      "file_name": "135978.jpg",
+      "annotation_id": 3639,
+      "decision": "VALID",
+      "confidence": "High"
+    },
+    {
+      "image_id": 1834,
+      "file_name": "297113.jpg",
+      "annotation_id": 3816,
+      "decision": "VALID",
+      "confidence": "High"
+    }
+  ]
+}

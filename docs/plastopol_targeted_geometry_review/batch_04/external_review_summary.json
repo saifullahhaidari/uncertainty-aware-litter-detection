@@ -1,0 +1,25 @@
+{
+  "dataset": "PlastOPol",
+  "batch": 4,
+  "external_reviewer": "Gemini",
+  "images_reviewed": 10,
+  "annotations_reviewed": 13,
+  "decision_distribution": {
+    "VALID": 13
+  },
+  "confidence_distribution": {
+    "High": 13
+  },
+  "source_identity_verification": "PASS",
+  "source_bbox_verification": "PASS",
+  "ledger_update": "PASS",
+  "ledger_total_records": 52,
+  "human_review_status": "pending",
+  "human_ground_truth_established": false,
+  "limitations": [
+    "External AI review is not human ground truth.",
+    "The exact set of visual materials inspected by Gemini has not been independently confirmed.",
+    "Gemini-provided citation markers were not treated as independently verified evidence.",
+    "Original source annotations were not modified."
+  ]
+}
