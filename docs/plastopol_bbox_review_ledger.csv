@@ -300,7 +300,7 @@
 782,303605.jpg,[1484],very_large,1,False,,pending,not_assessed,
 845,342616.jpg,[1611],very_large,1,False,,pending,not_assessed,
 887,194211.jpg,[1702],very_large,1,False,,pending,not_assessed,
-898,341013.jpg,[1722],very_large,1,True,targeted_individual_image,pending,not_assessed,
+898,341013.jpg,[1722],very_large,1,True,targeted_individual_image,reviewed,valid,Human visual review: bounding box correctly covers the litter object. The very_large geometry flag is a false positive for this annotation.
 927,178569.jpg,[1812],very_large,1,False,,pending,not_assessed,
 979,149697.jpg,[2013],very_large,1,False,,pending,not_assessed,
 1031,331199.jpg,[2116],very_large,1,False,,pending,not_assessed,

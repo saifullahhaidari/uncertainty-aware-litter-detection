@@ -1,0 +1,60 @@
+{
+  "dataset": "PlastOPol",
+  "candidate_unique_annotations": 412,
+  "selected_batch_count": 34,
+  "selected_batch_numbers": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "batch_manifest_unique_annotations": 411,
+  "batch_manifest_images": 340,
+  "manifest_missing_annotation_ids": [
+    1722
+  ],
+  "manifest_extra_annotation_ids": [],
+  "separate_targeted_reviews": [
+    {
+      "image_id": 898,
+      "file_name": "341013.jpg",
+      "annotation_id": 1722,
+      "decision": "VALID",
+      "review_status": "reviewed",
+      "review_type": "human_visual_review_outside_batch_manifests"
+    }
+  ],
+  "coverage_interpretation": "All 412 unique geometry-flagged annotations are accounted for: 411 in selected batch manifests and one separately documented targeted human review. This does not mean all 412 have human review.",
+  "human_reviewed_targeted_annotations": 1,
+  "source_annotations_modified": false
+}

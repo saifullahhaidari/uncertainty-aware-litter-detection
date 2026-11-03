@@ -1,9 +1,9 @@
 ﻿image_id,file_name,image_width,image_height,annotation_id,bbox_xywh,flag_types,review_status,reviewer_decision,review_notes,external_review_decision,external_reviewer,external_review_confidence,external_review_notes
-1236,136142.jpg,2449,2449,2560,"[1925, 2323, 109, 125]",boundary_touching,pending,not_assessed,,VALID,Gemini,,
-1236,136142.jpg,2449,2449,2576,"[1227, 1748, 18, 20]",very_small,pending,not_assessed,,VALID,Gemini,,
-1236,136142.jpg,2449,2449,2578,"[1511, 1500, 21, 23]",very_small,pending,not_assessed,,VALID,Gemini,,
+1236,136142.jpg,2449,2449,2560,"[1925, 2323, 109, 125]",boundary_touching,pending,not_assessed,,VALID,Gemini,High,Gemini observed a boundary-touching object at the bottom-right edge and judged the visible annotation consistent with the partially clipped object.
+1236,136142.jpg,2449,2449,2576,"[1227, 1748, 18, 20]",very_small,pending,not_assessed,,VALID,Gemini,High,Gemini identified a small white fragment on the grassy embankment and judged the bounding box valid.
+1236,136142.jpg,2449,2449,2578,"[1511, 1500, 21, 23]",very_small,pending,not_assessed,,VALID,Gemini,High,Gemini identified a small light-colored object in the grassy area near the fence and judged the bounding box valid.
 1236,136142.jpg,2449,2449,2590,"[1147, 5, 42, 9]",very_small,pending,not_assessed,,VALID,Gemini,High,"Gemini's follow-up review of the original full-resolution image and annotation crop found a distinct small synthetic litter item. The 42x9 px box was judged tightly aligned. The very_small flag reflects object size, not an identified annotation error."
-1236,136142.jpg,2449,2449,2592,"[1497, 632, 26, 16]",very_small,pending,not_assessed,,VALID,Gemini,,
+1236,136142.jpg,2449,2449,2592,"[1497, 632, 26, 16]",very_small,pending,not_assessed,,VALID,Gemini,High,Gemini identified a tiny white scrap on the pavement and judged the bounding box valid.
 24,146455.jpg,2448,2449,42,"[0, 784, 928, 787]",boundary_touching,pending,not_assessed,,VALID,Gemini,,
 24,146455.jpg,2448,2449,43,"[422, 514, 2018, 1722]",very_large,pending,not_assessed,,VALID,Gemini,,
 1297,402272.jpg,4032,3024,2703,"[815, 0, 284, 394]",boundary_touching,pending,not_assessed,,VALID,Gemini,,
@@ -12,8 +12,8 @@
 1910,268268.jpg,4032,4033,3969,"[396, 2046, 38, 30]",very_small,pending,not_assessed,,VALID,Gemini,,
 2047,259570.jpg,2448,2449,4309,"[0, 594, 2214, 1593]",boundary_touching;very_large,pending,not_assessed,,VALID,Gemini,,
 2047,259570.jpg,2448,2449,4310,"[1308, 1389, 1000, 1059]",boundary_touching,pending,not_assessed,,VALID,Gemini,,
-2214,136673.jpg,5312,2988,4672,"[2465, 2846, 132, 141]",boundary_touching,pending,not_assessed,,VALID,Gemini,,
-2214,136673.jpg,5312,2988,4673,"[252, 2147, 28, 46]",very_small,pending,not_assessed,,VALID,Gemini,,
+2214,136673.jpg,5312,2988,4672,"[2465, 2846, 132, 141]",boundary_touching,pending,not_assessed,,VALID,Gemini,High,Gemini identified a red plastic or wrapper fragment at the bottom-center boundary and judged the partially clipped-object annotation valid.
+2214,136673.jpg,5312,2988,4673,"[252, 2147, 28, 46]",very_small,pending,not_assessed,,VALID,Gemini,High,Gemini identified a tiny red speck above the curb and judged the bounding box valid.
 28,248879.jpg,4032,3024,61,"[1, 1, 2248, 2899]",boundary_touching;very_large,pending,not_assessed,,VALID,Gemini,,
 118,443426.jpg,4160,3120,263,"[393, 0, 2530, 3119]",boundary_touching;very_large,pending,not_assessed,,VALID,Gemini,,
 188,135497.jpg,3264,1836,379,"[1011, 274, 2252, 1561]",boundary_touching;very_large,pending,not_assessed,,VALID,Gemini,,

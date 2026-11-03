@@ -262,15 +262,52 @@
 Across Batches 01?04, 40 unique candidate images and 52 unique flagged annotations have received external AI review. All 52 decisions were `VALID` with `High` confidence. This is a priority-based review sample, not a representative statistical sample of all 341 candidate images. No model training or performance evaluation has been conducted.
 
 
+## Entry 014 ? PlastOPol Geometry Review Coverage Reconciliation
+
+- Date: 2026-11-03
+- Dataset: PlastOPol v1.0.
+- Scope: Reconciliation of the unique geometry-flagged annotation candidates against the selected review batch manifests and the separate targeted-review record.
+- Reconciliation report: `docs/plastopol_targeted_geometry_review/consolidated_review/manifest_coverage_reconciliation.md`
+- Machine-readable report: `docs/plastopol_targeted_geometry_review/consolidated_review/manifest_coverage_reconciliation.json`
+
+### Coverage reconciliation
+
+- The candidate inventory contains 412 unique geometry-flagged annotation IDs.
+- The 34 selected batch manifests (Batches 01-04 and 06-35) contain 411 unique annotation IDs across 340 images.
+- Annotation 1722, associated with image 898 (`341013.jpg`), is accounted for separately through a targeted individual-image review.
+- No extra annotation IDs were found in the selected manifests.
+- All 412 candidate IDs are accounted for in the reconciliation.
+
+### Targeted human review
+
+- Image ID: 898.
+- Filename: `341013.jpg`.
+- Annotation ID: 1722.
+- Human decision: `VALID`.
+- Review status: `reviewed`.
+- The bounding box was visually confirmed to cover the litter object. Its `very_large` geometry flag is a false positive for this particular annotation.
+- The decision was recorded in `docs/plastopol_bbox_review_ledger.csv`.
+- A pre-update backup was preserved as `docs/plastopol_bbox_review_ledger.before_image898_human_review.csv`.
+
+### Validation and limitations
+
+- Both annotation review CSV ledgers passed structural validation: 52 rows and 14 columns in the external-review ledger; 341 rows and 10 columns in the geometry-review ledger; zero malformed rows.
+- The reconciliation establishes inventory coverage, not complete annotation validation.
+- The 411 IDs in batch manifests must not be described as all human-reviewed or all successfully reviewed by Gemini.
+- Gemini assessments remain external AI-assisted assessments, not human ground truth.
+- Only Annotation 1722 is confirmed as human-reviewed in this reconciliation.
+- Original PlastOPol source annotations and selected batch manifests were not modified.
+- No model training or performance evaluation has been conducted.
+
 ## Current Research Status
 
 ### Dataset preparation
 
 - **TACO:** The processed one-class dataset contains 1,499 images and 4,778 annotations. Image ID 679 remains excluded pending manual review.
 - **PlastOPol:** The one-class YOLO dataset contains 2,418 images and 5,300 annotations across train, validation, and test splits. Automated YOLO quality audit passed with zero errors and zero warnings.
-- **PlastOPol geometry review:** Four priority batches have been externally reviewed: 40 unique images and 52 flagged annotations. Gemini returned `VALID` with `High` confidence for all 52.
-- **Human review:** All 52 externally reviewed annotation records remain pending human assessment. External AI review must not be interpreted as human ground truth.
-- **Review coverage:** The four batches cover 40 of 341 geometry-review candidate images. The sample is priority-based and does not support generalizing an error rate to all candidates.
+- **PlastOPol geometry-review inventory:** The reconciliation accounts for 412 unique geometry-flagged annotation IDs: 411 IDs across 34 selected batch manifests (340 images) and one separately documented targeted review. Manifest coverage does not establish that every listed annotation has been visually assessed.
+- **Human review:** Annotation 1722 (image 898, `341013.jpg`) has been visually reviewed and recorded as `VALID`. The 52 records in the B01-04 external-review ledger remain pending human assessment. Gemini decisions are not human ground truth.
+- **Review coverage:** The 34 selected manifests cover 340 unique candidate images and 411 unique annotation IDs. Annotation 1722 is accounted for separately. This is an inventory reconciliation, not a representative statistical sample or evidence of complete human review.
 - **Source integrity:** Original dataset annotations have been preserved; corrections and converted labels are stored separately.
 
 ### Model and evaluation
