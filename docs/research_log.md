@@ -336,3 +336,34 @@ Across Batches 01?04, 40 unique candidate images and 52 unique flagged annotatio
 - Keep scripts, configuration files, software versions, and processing reports so that the workflow can be reproduced.
 - Record training time, computational cost, and evaluation metrics only after they have actually been measured.
 - Treat publication in a Q1 or Q2 journal as an aspiration, not a guaranteed outcome.
+
+
+## Batch 34-35 Full-Resolution Follow-up and Source Identity Verification
+
+### AI-assisted results
+
+- Batch 34: 10 AI-valid, 0 incorrect bounding boxes, 0 uncertain, and 0 semantic-review outcomes.
+- Batch 35: 10 AI-valid, 0 incorrect bounding boxes, 0 uncertain, and 0 semantic-review outcomes.
+- The follow-up reported High confidence. Initial concerns for Annotation IDs 4652, 4732, 5165, and 5210 were subsequently reported as `VALID`.
+- The follow-up report stated that the identified missing-object candidates were already covered.
+- These are conversation-recorded external AI-assisted findings, not independent human ground truth. Human review remains pending.
+
+### Source identity verification
+
+- Source consistency result: `PASS` for all 8 images checked.
+- Evidence file: `docs/plastopol_targeted_geometry_review/batches_34_35_full_resolution/source_consistency_check.csv`.
+- Verified mappings:
+  - Annotation 4652 ? image 2208 ? `263767.jpg`.
+  - Annotation 4732 ? image 2225 ? `412201.jpg`.
+  - Annotation 5165 ? image 2375 ? `135720.jpg`.
+  - Annotation 5210 ? image 2392 ? `204405.jpg`.
+  - Annotation 5225 ? image 2394 ? `135900.jpg`.
+- The source identity check confirms correspondence with the original dataset and manifest; it does not independently validate annotation semantics or box correctness.
+- The eight-image identity check is distinct from the AI follow-up covering 20 flagged annotations.
+- No original annotations or review ledgers were changed during this documentation update.
+
+### Research integrity
+
+- AI-assisted results, source identity checks, automated geometry audits, and human decisions remain separate evidence types.
+- No human ground truth is claimed for Batches 34-35.
+- No model training or performance evaluation is claimed by this update.

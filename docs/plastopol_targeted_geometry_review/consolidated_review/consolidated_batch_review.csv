@@ -1,0 +1,35 @@
+﻿batch,images,manifest_flagged_annotations,AI_valid,AI_incorrect_bbox,AI_uncertain,AI_semantic_review,evidence_source,evidence_status,human_review,notes
+1,10,19,19,0,0,0,saved_file,SAVED_AGGREGATE_OR_INDIVIDUAL,pending,Saved evidence report; granularity=aggregate_summary; identity=passed
+2,10,10,10,0,0,0,saved_file,SAVED_AGGREGATE_OR_INDIVIDUAL,pending,Saved evidence report; granularity=individual_records; identity=PASS
+3,10,10,10,0,0,0,saved_file,SAVED_AGGREGATE_OR_INDIVIDUAL,pending,Saved evidence report; granularity=individual_records; identity=not_reported
+4,10,13,13,0,0,0,saved_file,SAVED_AGGREGATE_OR_INDIVIDUAL,pending,Saved evidence report; granularity=raw_individual_decisions; identity=PASS
+6,10,32,,,,,conversation_recorded,INCOMPLETE_DETAILS,pending,32 annotations. Gemini ID/image mismatches and insufficient details were reported; final reliable decision counts are unavailable.
+7,10,21,20,0,0,1,conversation_recorded,AI_REVIEW_RECORDED,pending,"Annotation 1387, image 733: possible red pepper husk; semantic review needed. Possible missing-object concerns were also noted."
+8,10,20,20,0,0,0,conversation_recorded,AI_REVIEW_RECORDED,pending,All 20 annotations reported VALID with High confidence.
+9,10,20,,,,,conversation_recorded,NOT_RECORDED,pending,Manifest contains 20 flagged annotations; a detailed final Gemini decision summary is unavailable.
+10,10,16,,,,,conversation_recorded,GROUP_RESULT_ONLY,pending,Combined group-level findings are stored separately. No individual batch allocation is supported.
+11,10,10,,,,,conversation_recorded,GROUP_RESULT_ONLY,pending,Combined group-level findings are stored separately. No individual batch allocation is supported.
+12,10,10,,,,,conversation_recorded,GROUP_RESULT_ONLY,pending,Combined group-level findings are stored separately. No individual batch allocation is supported.
+13,10,10,,,,,conversation_recorded,GROUP_RESULT_ONLY,pending,Combined group-level findings are stored separately. No individual batch allocation is supported.
+14,10,10,,,,,conversation_recorded,MIXED_EVIDENCE,pending,Included in Batches 14-18: 23 priority annotations reported VALID by Gemini; separate semantic candidates were noted for IDs 581 and 705. Do not combine these as a single exhaustive decision set.
+15,10,10,,,,,conversation_recorded,MIXED_EVIDENCE,pending,"Included in Batches 14-18 priority review. Annotation ID 881 had an image/batch mapping mismatch; corrected mapping was image 457, filename 127724.jpg."
+16,10,10,,,,,conversation_recorded,MIXED_EVIDENCE,pending,Included in Batches 14-18 priority review; 23 priority annotations across the five batches were reported VALID. Auto geometry audit separately reported 10/10 geometry-valid.
+17,10,10,,,,,conversation_recorded,MIXED_EVIDENCE,pending,Included in Batches 14-18 priority review. Semantic candidates: IDs 1108 and 1179.
+18,10,10,,,,,conversation_recorded,MIXED_EVIDENCE,pending,Included in Batches 14-18 priority review; 23 priority annotations across the five batches were reported VALID.
+19,10,10,,,,,conversation_recorded,GROUP_RESULT_ONLY,pending,Combined group-level findings are stored separately. No individual batch allocation is supported.
+20,10,10,,,,,conversation_recorded,GROUP_RESULT_ONLY,pending,Combined group-level findings are stored separately. No individual batch allocation is supported.
+21,10,10,,,,,conversation_recorded,GROUP_RESULT_ONLY,pending,Combined group-level findings are stored separately. No individual batch allocation is supported.
+22,10,10,,,,,conversation_recorded,GROUP_RESULT_ONLY,pending,Combined group-level findings are stored separately. No individual batch allocation is supported.
+23,10,10,,,,,conversation_recorded,GROUP_RESULT_ONLY,pending,Combined group-level findings are stored separately. No individual batch allocation is supported.
+24,10,10,,,,,conversation_recorded,GROUP_RESULT_ONLY,pending,Combined group-level findings are stored separately. No individual batch allocation is supported.
+25,10,10,,,,,conversation_recorded,GROUP_RESULT_ONLY,pending,Combined group-level findings are stored separately. No individual batch allocation is supported.
+26,10,10,,,,,conversation_recorded,GROUP_RESULT_ONLY,pending,Combined group-level findings are stored separately. No individual batch allocation is supported.
+27,10,10,,,,,conversation_recorded,GROUP_RESULT_ONLY,pending,Combined group-level findings are stored separately. No individual batch allocation is supported.
+28,10,10,,,,,conversation_recorded,GROUP_RESULT_ONLY,pending,Combined group-level findings are stored separately. No individual batch allocation is supported.
+29,10,10,,,,,conversation_recorded,GROUP_RESULT_ONLY,pending,Combined group-level findings are stored separately. No individual batch allocation is supported.
+30,10,10,,,,,conversation_recorded,GROUP_RESULT_ONLY,pending,Combined group-level findings are stored separately. No individual batch allocation is supported.
+31,10,10,,,,,conversation_recorded,GROUP_RESULT_ONLY,pending,Combined group-level findings are stored separately. No individual batch allocation is supported.
+32,10,10,,,,,conversation_recorded,GROUP_RESULT_ONLY,pending,Combined group-level findings are stored separately. No individual batch allocation is supported.
+33,10,10,,,,,conversation_recorded,GROUP_RESULT_ONLY,pending,Combined group-level findings are stored separately. No individual batch allocation is supported.
+34,10,10,10,0,0,0,conversation_recorded,FULL_RESOLUTION_FOLLOWUP,pending,Initial concerns for IDs 4652 and 4732 were revised to VALID High after full-resolution review. Missing-object candidates in the B34-35 follow-up were reported as already covered.
+35,10,10,10,0,0,0,conversation_recorded,FULL_RESOLUTION_FOLLOWUP,pending,Initial concerns for IDs 5165 and 5210 were revised to VALID High after full-resolution review. Missing-object candidates in the B34-35 follow-up were reported as already covered.
